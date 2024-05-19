@@ -1,0 +1,1611 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\appusers\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\appusers\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\admin\\appusers\\appusers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\admin\\appusers\\appusers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\appusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\appusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\service\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\appuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\controllers\\appuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\controllers\\appuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\shared\\components\\postcomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\components\\postcomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\product\\productcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\product\\productcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\carts\\orderprogress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\carts\\orderprogress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\carts\\historyorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\carts\\historyorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\product\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\product\\productsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\product\\productsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\service\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\service\\reviewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\reviewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\models\\productmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\productmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\controllers\\components\\producthighlightcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\controllers\\components\\producthighlightcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\controllers\\components\\productforcategorycomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\controllers\\components\\productforcategorycomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\shared\\components\\producthighlightcomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\components\\producthighlightcomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\shared\\components\\productforcategorycomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\components\\productforcategorycomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\product\\producthight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\product\\producthight.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\data\\databaseentity\\reviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\reviews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\carts\\reivewsorderproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\carts\\reivewsorderproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\carts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\carts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\users\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\users\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\users\\changenewpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\users\\changenewpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\users\\accuracy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\users\\accuracy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\users\\changepass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\users\\changepass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\users\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\users\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\orders\\oderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\orders\\oderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\admin\\orders\\orders.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\admin\\orders\\orders.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\carts\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\carts\\orderdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\_layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\js\\shared\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\js\\shared\\shared.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\web\\my-pham\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\web\\my-pham\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\lib\\font-awesome\\css\\font-awesome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\lib\\font-awesome\\css\\font-awesome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\lib\\font-awesome\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\lib\\font-awesome\\css\\font-awesome.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\product\\productstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\product\\productstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\post\\detailpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\post\\detailpost.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\product\\addview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\product\\addview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\public\\user\\css\\suplo-style.scss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\public\\user\\css\\suplo-style.scss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\service\\cartsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\cartsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\data\\databaseentity\\carts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\carts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\shared\\_layout3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\_layout3.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\public\\user\\css\\timber.scss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\public\\user\\css\\timber.scss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\public\\user\\css\\owl.transitions.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\public\\user\\css\\owl.transitions.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\public\\user\\css\\owl.theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\public\\user\\css\\owl.theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\public\\user\\css\\owl.carousel.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\public\\user\\css\\owl.carousel.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\public\\user\\css\\css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\public\\user\\css\\css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\public\\user\\css\\box-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\public\\user\\css\\box-style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\data\\databaseentity\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\admin\\category\\category.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\admin\\category\\category.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\models\\categorymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\categorymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\category\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\category\\addorupdate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\data\\databaseentity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\migrations\\20230516021410_add-new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\migrations\\20230516021410_add-new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\data\\databaseentity\\databaseentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\databaseentitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\data\\databaseentity\\productimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\productimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\service\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\ordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\admin\\product\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\admin\\product\\product.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\web\\appusers\\appusers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\web\\appusers\\appusers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\controllers\\components\\productnewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\controllers\\components\\productnewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\product\\updateview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\product\\updateview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\views\\product\\_quantity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\views\\product\\_quantity.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\post\\postsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\post\\postsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\shared\\components\\productnewcomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\components\\productnewcomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\general\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\general\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\service\\productsimagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\productsimagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\service\\postsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\postsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\service\\productquantityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\productquantityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\controllers\\productquantitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\controllers\\productquantitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\models\\quantityproductmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\quantityproductmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\wwwroot\\admin\\post\\post.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\wwwroot\\admin\\post\\post.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\views\\shared\\components\\categorymenucomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\views\\shared\\components\\categorymenucomponent\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\models\\ordersdetailmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\ordersdetailmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\data\\databaseentity\\ordersdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\data\\databaseentity\\ordersdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\service\\sizesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\service\\sizesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|d:\\hoc-tap\\\u0111\u1ED3 \u00E1n\\ban-my-pham\\21-04\\19-04\\tech\\tech\\areas\\admin\\models\\cartsmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC82C1F-70E4-4287-9F22-F6CB06C00784}|TECH\\TECH.csproj|solutionrelative:tech\\areas\\admin\\models\\cartsmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-Sach\\Ban-Sach\\TECH\\TECH\\Views\\Shared\\_Layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appusers.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\admin\\appusers\\appusers.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\admin\\appusers\\appusers.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\admin\\appusers\\appusers.js",
+              "RelativeToolTip": "TECH\\wwwroot\\admin\\appusers\\appusers.js",
+              "ViewState": "AQIAACoAAAAAAAAAAAAiwD0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-25T15:10:25.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\AppUsers\\Index.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\AppUsers\\Index.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\AppUsers\\Index.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\AppUsers\\Index.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T15:10:11.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppUsersController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\AppUsersController.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Controllers\\AppUsersController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\AppUsersController.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Controllers\\AppUsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T15:03:11.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddOrUpdate.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\AppUsers\\AddOrUpdate.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\AppUsers\\AddOrUpdate.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\AppUsers\\AddOrUpdate.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\AppUsers\\AddOrUpdate.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwBgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T15:02:20.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\Components\\PostComponent\\Default.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\Components\\PostComponent\\Default.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\Components\\PostComponent\\Default.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\Components\\PostComponent\\Default.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T14:43:13.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Program.cs",
+              "RelativeDocumentMoniker": "TECH\\Program.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Program.cs",
+              "RelativeToolTip": "TECH\\Program.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAIwBIBAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TECH\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TECH\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAANIAAAAAAAAAAAAAAOMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppUserService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\AppUserService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\AppUserService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\AppUserService.cs",
+              "RelativeToolTip": "TECH\\Service\\AppUserService.cs",
+              "ViewState": "AQIAADkBAAAAAAAAAADgvz8BAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACAEAAAAAAAAAAAuwEoEAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HistoryOrder.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Carts\\HistoryOrder.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Carts\\HistoryOrder.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Carts\\HistoryOrder.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Carts\\HistoryOrder.cshtml",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAmwKQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartsController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\CartsController.cs",
+              "RelativeDocumentMoniker": "TECH\\Controllers\\CartsController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\CartsController.cs",
+              "RelativeToolTip": "TECH\\Controllers\\CartsController.cs",
+              "ViewState": "AQIAAOwAAAAAAAAAAAAqwPkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAJoAAAAAAAAAAAAmwKoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\appsettings.json",
+              "RelativeDocumentMoniker": "TECH\\appsettings.json",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\appsettings.json",
+              "RelativeToolTip": "TECH\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-27T13:24:29.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "TECH\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "TECH\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAkwCsBAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductCategory.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Product\\ProductCategory.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Product\\ProductCategory.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Product\\ProductCategory.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Product\\ProductCategory.cshtml",
+              "ViewState": "AQIAAE0BAAAAAAAAAAAkwGgBAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Product\\ProductDetail.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Product\\ProductDetail.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Product\\ProductDetail.cshtml",
+              "ViewState": "AQIAAP8CAAAAAAAAAAAAABcDAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T15:45:52.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderProgress.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Carts\\OrderProgress.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Carts\\OrderProgress.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Carts\\OrderProgress.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Carts\\OrderProgress.cshtml",
+              "ViewState": "AQIAAMgAAAAAAAAAAAArwNwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T16:04:22.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAApwGcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductSearch.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Product\\ProductSearch.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Product\\ProductSearch.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Product\\ProductSearch.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Product\\ProductSearch.cshtml",
+              "ViewState": "AQIAABYBAAAAAAAAAAAkwCIBAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductsService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\ProductsService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\ProductsService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\ProductsService.cs",
+              "RelativeToolTip": "TECH\\Service\\ProductsService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAawEcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReviewsService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\ReviewsService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\ReviewsService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\ReviewsService.cs",
+              "RelativeToolTip": "TECH\\Service\\ReviewsService.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAAArwKIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T15:30:00.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Models\\ProductModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\ProductModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Models\\ProductModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\ProductModelView.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAIA5wEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductHighlightComponent.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\Components\\ProductHighlightComponent.cs",
+              "RelativeDocumentMoniker": "TECH\\Controllers\\Components\\ProductHighlightComponent.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\Components\\ProductHighlightComponent.cs",
+              "RelativeToolTip": "TECH\\Controllers\\Components\\ProductHighlightComponent.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAmwDAAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAkwKQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\Components\\ProductHighlightComponent\\Default.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\Components\\ProductHighlightComponent\\Default.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\Components\\ProductHighlightComponent\\Default.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\Components\\ProductHighlightComponent\\Default.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAADwv0kAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T15:04:23.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductHight.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Product\\ProductHight.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Product\\ProductHight.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Product\\ProductHight.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Product\\ProductHight.cshtml",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAAAB8BAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:38:39.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductForCategoryComponent.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\Components\\ProductForCategoryComponent.cs",
+              "RelativeDocumentMoniker": "TECH\\Controllers\\Components\\ProductForCategoryComponent.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\Components\\ProductForCategoryComponent.cs",
+              "RelativeToolTip": "TECH\\Controllers\\Components\\ProductForCategoryComponent.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwDYAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Reviews.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\Reviews.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\Reviews.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\Reviews.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\Reviews.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T13:42:29.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReivewsOrderProduct.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Carts\\ReivewsOrderProduct.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Carts\\ReivewsOrderProduct.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Carts\\ReivewsOrderProduct.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Carts\\ReivewsOrderProduct.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T16:25:34.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\Components\\ProductForCategoryComponent\\Default.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\Components\\ProductForCategoryComponent\\Default.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\Components\\ProductForCategoryComponent\\Default.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\Components\\ProductForCategoryComponent\\Default.cshtml",
+              "ViewState": "AQIAAM8AAAAAAAAAAADwv/wAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\Login.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Users\\Login.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\Login.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Users\\Login.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEcAAAC3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Carts\\Index.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Carts\\Index.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Carts\\Index.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Carts\\Index.cshtml",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAIwFwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Accuracy.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\Accuracy.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Users\\Accuracy.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\Accuracy.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Users\\Accuracy.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ChangeNewPassWord.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\ChangeNewPassWord.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Users\\ChangeNewPassWord.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\ChangeNewPassWord.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Users\\ChangeNewPassWord.cshtml",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAiwGsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Users\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\ForgotPassword.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Users\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAGIAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ChangePass.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\ChangePass.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Users\\ChangePass.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\ChangePass.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Users\\ChangePass.cshtml",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAswEYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\Register.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Users\\Register.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\Register.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Users\\Register.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvxoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\Profile.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Users\\Profile.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Users\\Profile.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Users\\Profile.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADoAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAqwHkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T16:23:54.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OderDetail.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Orders\\OderDetail.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Orders\\OderDetail.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Orders\\OderDetail.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Orders\\OderDetail.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAIwEQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "orders.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\admin\\orders\\orders.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\admin\\orders\\orders.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\admin\\orders\\orders.js",
+              "RelativeToolTip": "TECH\\wwwroot\\admin\\orders\\orders.js",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAlwHYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-27T13:24:29.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "OrderDetail.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Carts\\OrderDetail.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Carts\\OrderDetail.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Carts\\OrderDetail.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Carts\\OrderDetail.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAmwBMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\web\\my-pham\\css\\style.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\web\\my-pham\\css\\style.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\web\\my-pham\\css\\style.css",
+              "RelativeToolTip": "TECH\\wwwroot\\web\\my-pham\\css\\style.css",
+              "ViewState": "AQIAAEIBAAAAAAAAAAArwFgBAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-15T16:08:35.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AQIAABYBAAAAAAAAAAAQwEIBAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "shared.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\js\\shared\\shared.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\js\\shared\\shared.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\js\\shared\\shared.js",
+              "RelativeToolTip": "TECH\\wwwroot\\js\\shared\\shared.js",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwBUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-31T18:11:20.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AddView.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Product\\AddView.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Product\\AddView.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Product\\AddView.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Product\\AddView.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAiwHgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Post\\Index.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Post\\Index.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAwIIAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DetailPost.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Post\\DetailPost.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Post\\DetailPost.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Post\\DetailPost.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Post\\DetailPost.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAIwC8AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ProductStatus.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Product\\ProductStatus.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Product\\ProductStatus.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Product\\ProductStatus.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Product\\ProductStatus.cshtml",
+              "ViewState": "AQIAAAIBAAAAAAAAAAAIwAcBAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T23:51:08.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "font-awesome.min.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\lib\\font-awesome\\css\\font-awesome.min.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\lib\\font-awesome\\css\\font-awesome.min.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\lib\\font-awesome\\css\\font-awesome.min.css",
+              "RelativeToolTip": "TECH\\wwwroot\\lib\\font-awesome\\css\\font-awesome.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-07T15:52:18.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "font-awesome.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\lib\\font-awesome\\css\\font-awesome.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\lib\\font-awesome\\css\\font-awesome.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\lib\\font-awesome\\css\\font-awesome.css",
+              "RelativeToolTip": "TECH\\wwwroot\\lib\\font-awesome\\css\\font-awesome.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-07T15:52:20.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "suplo-style.scss.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\suplo-style.scss.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\public\\user\\css\\suplo-style.scss.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\suplo-style.scss.css",
+              "RelativeToolTip": "TECH\\wwwroot\\public\\user\\css\\suplo-style.scss.css",
+              "ViewState": "AQIAABILAAAAAAAAAAAlwCULAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-06T15:32:22.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:12:29.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Carts.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\Carts.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\Carts.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\Carts.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\Carts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CartsService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\CartsService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\CartsService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\CartsService.cs",
+              "RelativeToolTip": "TECH\\Service\\CartsService.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAcwF0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "_Layout3.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\_Layout3.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\_Layout3.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\_Layout3.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\_Layout3.cshtml",
+              "ViewState": "AQIAAN4BAAAAAAAAAAAYwO0BAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T18:29:18.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "timber.scss.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\timber.scss.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\public\\user\\css\\timber.scss.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\timber.scss.css",
+              "RelativeToolTip": "TECH\\wwwroot\\public\\user\\css\\timber.scss.css",
+              "ViewState": "AQIAAL0JAAAAAAAAAABIwNQJAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-31T15:55:16.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "css.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\css.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\public\\user\\css\\css.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\css.css",
+              "RelativeToolTip": "TECH\\wwwroot\\public\\user\\css\\css.css",
+              "ViewState": "AQIAAGEAAAAAAAAAAABIwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-31T15:56:18.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "box-style.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\box-style.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\public\\user\\css\\box-style.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\box-style.css",
+              "RelativeToolTip": "TECH\\wwwroot\\public\\user\\css\\box-style.css",
+              "ViewState": "AQIAAD4AAAAAAAAAAABIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-31T15:56:26.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "owl.carousel.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\owl.carousel.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\public\\user\\css\\owl.carousel.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\owl.carousel.css",
+              "RelativeToolTip": "TECH\\wwwroot\\public\\user\\css\\owl.carousel.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-31T16:16:00.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "owl.theme.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\owl.theme.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\public\\user\\css\\owl.theme.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\owl.theme.css",
+              "RelativeToolTip": "TECH\\wwwroot\\public\\user\\css\\owl.theme.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-31T16:16:03.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "owl.transitions.css",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\owl.transitions.css",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\public\\user\\css\\owl.transitions.css",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\public\\user\\css\\owl.transitions.css",
+              "RelativeToolTip": "TECH\\wwwroot\\public\\user\\css\\owl.transitions.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-31T16:16:05.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "AddOrUpdate.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Category\\AddOrUpdate.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Category\\AddOrUpdate.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Category\\AddOrUpdate.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Category\\AddOrUpdate.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAABYwGoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T15:05:49.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAqwGMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T14:11:44.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Products.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\Products.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\Products.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\Products.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\Products.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAiwCQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CategoryModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Models\\CategoryModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\CategoryModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Models\\CategoryModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\CategoryModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABYwA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:27:30.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\CategoryService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\CategoryService.cs",
+              "RelativeToolTip": "TECH\\Service\\CategoryService.cs",
+              "ViewState": "AQIAALkAAAAAAAAAAAAnwMMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "category.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\admin\\category\\category.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\admin\\category\\category.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\admin\\category\\category.js",
+              "RelativeToolTip": "TECH\\wwwroot\\admin\\category\\category.js",
+              "ViewState": "AQIAABYAAAAAAAAAAAAYwCMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-27T13:24:29.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\Category.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\Category.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\Category.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABYwBIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:04:52.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAJ4BAAAAAAAAAAArwKUBAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "_Layout2.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-Sach\\Ban-Sach\\TECH\\TECH\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Ban-Sach\\Ban-Sach\\TECH\\TECH\\Views\\Shared\\_Layout2.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-Sach\\Ban-Sach\\TECH\\TECH\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\Ban-Sach\\Ban-Sach\\TECH\\TECH\\Views\\Shared\\_Layout2.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "OrdersService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\OrdersService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\OrdersService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\OrdersService.cs",
+              "RelativeToolTip": "TECH\\Service\\OrdersService.cs",
+              "ViewState": "AQIAAEEBAAAAAAAAAAAlwEcBAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ProductImages.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\ProductImages.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\ProductImages.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\ProductImages.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\ProductImages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "DataBaseEntityContext.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\DataBaseEntityContext.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\DataBaseEntityContext.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\DataBaseEntityContext.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\DataBaseEntityContext.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAA4wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20230516021410_add-new.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Migrations\\20230516021410_add-new.cs",
+              "RelativeDocumentMoniker": "TECH\\Migrations\\20230516021410_add-new.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Migrations\\20230516021410_add-new.cs",
+              "RelativeToolTip": "TECH\\Migrations\\20230516021410_add-new.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAABABAAAAAAAAAAAuwC8BAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "product.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\admin\\product\\product.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\admin\\product\\product.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\admin\\product\\product.js",
+              "RelativeToolTip": "TECH\\wwwroot\\admin\\product\\product.js",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAuwLgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-27T13:24:29.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "appusers.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\web\\appusers\\appusers.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\web\\appusers\\appusers.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\web\\appusers\\appusers.js",
+              "RelativeToolTip": "TECH\\wwwroot\\web\\appusers\\appusers.js",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAowIMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-27T13:24:29.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ProductNewComponent.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\Components\\ProductNewComponent.cs",
+              "RelativeDocumentMoniker": "TECH\\Controllers\\Components\\ProductNewComponent.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Controllers\\Components\\ProductNewComponent.cs",
+              "RelativeToolTip": "TECH\\Controllers\\Components\\ProductNewComponent.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAADwvy8AAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "UpdateView.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Product\\UpdateView.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Product\\UpdateView.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Product\\UpdateView.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Product\\UpdateView.cshtml",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAswI0AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "PostSearch.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Post\\PostSearch.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Post\\PostSearch.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Post\\PostSearch.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Post\\PostSearch.cshtml",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAswFkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "_Quantity.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Product\\_Quantity.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Views\\Product\\_Quantity.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Views\\Product\\_Quantity.cshtml",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Views\\Product\\_Quantity.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\Components\\ProductNewComponent\\Default.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\Components\\ProductNewComponent\\Default.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\Components\\ProductNewComponent\\Default.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\Components\\ProductNewComponent\\Default.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAmwIIAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "General.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\General\\General.cs",
+              "RelativeDocumentMoniker": "TECH\\General\\General.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\General\\General.cs",
+              "RelativeToolTip": "TECH\\General\\General.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAqwEEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ProductsImagesService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\ProductsImagesService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\ProductsImagesService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\ProductsImagesService.cs",
+              "RelativeToolTip": "TECH\\Service\\ProductsImagesService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "PostsService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\PostsService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\PostsService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\PostsService.cs",
+              "RelativeToolTip": "TECH\\Service\\PostsService.cs",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAiwMMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "ProductQuantityService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\ProductQuantityService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\ProductQuantityService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\ProductQuantityService.cs",
+              "RelativeToolTip": "TECH\\Service\\ProductQuantityService.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAUwGAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "ProductQuantityController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\ProductQuantityController.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Controllers\\ProductQuantityController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\ProductQuantityController.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Controllers\\ProductQuantityController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAcwBgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "QuantityProductModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Models\\QuantityProductModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\QuantityProductModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Models\\QuantityProductModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\QuantityProductModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Controllers\\PostController.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAmwO4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "post.js",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\admin\\post\\post.js",
+              "RelativeDocumentMoniker": "TECH\\wwwroot\\admin\\post\\post.js",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\wwwroot\\admin\\post\\post.js",
+              "RelativeToolTip": "TECH\\wwwroot\\admin\\post\\post.js",
+              "ViewState": "AQIAAD0CAAAAAAAAAAAAwE4BAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-27T13:24:29.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAEwGAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\Components\\CategoryMenuComponent\\Default.cshtml",
+              "RelativeDocumentMoniker": "TECH\\Views\\Shared\\Components\\CategoryMenuComponent\\Default.cshtml",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Views\\Shared\\Components\\CategoryMenuComponent\\Default.cshtml",
+              "RelativeToolTip": "TECH\\Views\\Shared\\Components\\CategoryMenuComponent\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T13:24:29.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "OrdersDetailModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Models\\OrdersDetailModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\OrdersDetailModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Models\\OrdersDetailModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\OrdersDetailModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "OrdersDetails.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\OrdersDetails.cs",
+              "RelativeDocumentMoniker": "TECH\\Data\\DatabaseEntity\\OrdersDetails.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Data\\DatabaseEntity\\OrdersDetails.cs",
+              "RelativeToolTip": "TECH\\Data\\DatabaseEntity\\OrdersDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "SizesService.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\SizesService.cs",
+              "RelativeDocumentMoniker": "TECH\\Service\\SizesService.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Service\\SizesService.cs",
+              "RelativeToolTip": "TECH\\Service\\SizesService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "CartsModelView.cs",
+              "DocumentMoniker": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Models\\CartsModelView.cs",
+              "RelativeDocumentMoniker": "TECH\\Areas\\Admin\\Models\\CartsModelView.cs",
+              "ToolTip": "D:\\Hoc-Tap\\\u0110\u1ED3 \u00C1n\\Ban-My-Pham\\21-04\\19-04\\TECH\\TECH\\Areas\\Admin\\Models\\CartsModelView.cs",
+              "RelativeToolTip": "TECH\\Areas\\Admin\\Models\\CartsModelView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:24:29.697Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

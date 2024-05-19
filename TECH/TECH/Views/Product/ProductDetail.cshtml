@@ -1,0 +1,821 @@
+﻿@using TECH.Areas.Admin.Models
+@model ProductModelView
+@{
+    ViewData["Title"] = "ProductCategory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .tt-prod {
+        color: #4fb100;
+        text-transform: uppercase;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .min-wrap h2 {
+        padding: 10px 0;
+        color: #f8456a;
+        font-weight: bold;
+    }
+
+    h2.price-prod2 {
+        font-size: 16px;
+        color: #999 !important;
+        margin: 0;
+    }
+
+    .price-prod {
+        color: #f00;
+        font-size: 25px;
+        margin: 4px 0px;
+    }
+
+
+    .product-detail .tt-prod {
+        margin: 0px;
+        padding: 0px;
+        color: #333333;
+    }
+
+    .product-detail .price-prod {
+        padding: 0px 0px;
+        color: #f8456a;
+        font-weight: bold;
+    }
+
+    .product-detail .price-prod2 {
+        font-weight: bold;
+        padding-bottom: 0px;
+        padding-top: 3px;
+    }
+
+    .btn-add-cart {
+        margin-top: 15px;
+        display: inline-block;
+    }
+
+    .nav-tabs > li {
+        margin-bottom: 0px;
+    }
+
+
+    .product-content-left {
+        padding: 20px;
+    }
+
+    .mota {
+        margin-top: 40px;
+    }
+
+    .tab-content {
+        padding: 20px;
+    }
+
+    .sub_desc {
+        margin-top: 20px;
+        background-color: #e7ffe2;
+        border: 1px solid #b1dab3;
+        padding: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+        -moz-box-shadow: inset 1px 1px 1px #fff;
+        -webkit-box-shadow: inset 1px 1px 1px #fff;
+        box-shadow: inset 1px 1px 1px #fff;
+        -o-box-shadow: inset 1px 1px 1px #fff;
+        color: #189001;
+        margin-bottom: 19px;
+    }
+
+        .sub_desc p {
+            margin: 0;
+            padding: 5px 0px;
+        }
+
+            .sub_desc p a {
+                background: #89a600;
+                padding: 2px 6px;
+                border-radius: 3px;
+                color: #fff !important;
+            }
+
+    .txt-title, .txt-title-danh-muc {
+        margin: 11px 0px;
+    }
+
+    .danh-muc-name {
+        color: #0071c5;
+        font-weight: bold;
+    }
+
+    .box-quantity {
+        margin: 5px 0px;
+        display: inline-flex;
+    }
+
+    /*   .bg-primary {
+                background-color: #8fa815 !important;
+            } */
+
+    /*  .modal-title {
+                color: #fff !important;
+                font-size: 20px;
+            } */
+
+    .choosesize {
+        background: #f4f4f4;
+        padding: 10px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+
+    .choosesize, ul.ulsize li {
+        border: 1px solid #dadada;
+    }
+
+        .choosesize li {
+            list-style: none;
+        }
+
+        .choosesize p {
+            font-weight: 400;
+            text-transform: uppercase;
+            margin: 0;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        ul.ulsize li:hover {
+            border-color: red;
+        }
+
+    ul.ulsize li {
+        float: left;
+        margin-right: 5px;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        ul.ulsize li.tick {
+            background: url(images/sticked.png) right bottom no-repeat #fff;
+            border-color: red;
+        }
+
+    .product-description-wrapper {
+        overflow: hidden;
+        font-weight: initial;
+    }
+
+    .product-description-wrapper {
+        border: 1px solid #f2f2f2;
+    }
+
+    .product-description-wrapper {
+        overflow: hidden;
+        font-weight: initial;
+    }
+
+        .product-description-wrapper div.tab {
+            display: block;
+            /*background: #f2f2f2;*/
+            background: #f7f7f7;
+        }
+
+            .product-description-wrapper div.tab button {
+                /*color: #00ab9f;*/
+                color: #f26093;
+                text-align: center;
+                float: left;
+                outline: none;
+                cursor: pointer;
+                /* padding: 15px; */
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 0px;
+            }
+
+        .product-description-wrapper .pro-tabcontent .tab_list_product table tr {
+            background: #fafafa;
+        }
+
+            .product-description-wrapper .pro-tabcontent .tab_list_product table tr:nth-child(2n + 1) {
+                background-color: #fff;
+            }
+
+            .product-description-wrapper .pro-tabcontent .tab_list_product table tr td:first-child {
+                width: 220px;
+                vertical-align: top;
+                color: #4f4f4f;
+                font-size: 13px;
+                font-weight: 500;
+                background: #efefef;
+                font-weight: 500;
+            }
+
+            .product-description-wrapper .pro-tabcontent .tab_list_product table tr td {
+                padding: 10px 15px;
+                line-height: 18px;
+                border: none;
+                font-size: 13px;
+                color: #000;
+            }
+
+        .product-description-wrapper .pro-tabcontent {
+            display: none;
+            padding: 15px;
+            -webkit-animation: fadeEffect 1s;
+            animation: fadeEffect 1s;
+        }
+
+    .hmodule-products-body {
+        background: #fff;
+        margin-top: 20px;
+        display: inline-block;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .product-short-description p {
+        font-size: 16px;
+        color: #2b2b2b;
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+
+    .input-custom-button-quantity {
+        display: inline-block;
+        width: 100px !important;
+        float: left;
+    }
+
+    .custom-button-quantity {
+        margin-right: 0px;
+        display: inline-block;
+        float: left;
+        border: 1px solid #ddd;
+    }
+
+    .custom-button-quantity-plus {
+        float: unset;
+    }
+
+    .html_after_addtocart {
+        margin: 15px 0px;
+    }
+
+    .tab-panels .panel {
+        padding: 0px 20px;
+        text-align: justify;
+        font-size: 17px;
+        color: #0A0A0A;
+        line-height: 1.6em;
+    }
+
+    .product-detail h2 strong {
+        font-size: 19px;
+    }
+
+    .hmodule-products-body .bg-primary {
+        background-color: unset !important;
+    }
+
+    .hmodule-products-body #categoryModal h5 {
+        font-size: 25px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .product-detail.custom-height {
+        background: #fff;
+    }
+</style>
+
+<section id="" class="home-module-products " style="background-color: #ececec;padding-bottom: 30px;">
+    <div class="container">
+        <div class="hmodule-products-body">
+            <div class="wrapper">
+
+                <div class="inner">
+
+                    <input type="hidden" class="product-id" value="@Model.id" />
+
+                    <section id="breadcrumb-wrapper" style="    margin-bottom: 20px;">
+                        <div class="breadcrumb-content">
+                            <div class="wrapper">
+                                <div class="inner">
+                                    <div class="breadcrumb-small">
+                                        <a href="/" title="Quay trở về trang chủ">Trang chủ</a>
+                                        <span class="mr_lr">&nbsp;/&nbsp;</span>
+                                        <a href="/san-pham/@Model.category_id" target="_self">
+                                            <span>@Model.categorystr</span>
+                                        </a>
+                                        <span class="mr_lr">&nbsp;/&nbsp;</span>
+                                        <span>@Model.name</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <div class="product-detail custom-height">
+                        <section class="ftco-section">
+
+                            <div class="breadcum">
+
+                                <div class="clear"></div>
+                            </div>
+                            <div class="product-content">
+                                @*<div class="row">*@
+                                <div class="row" style="flex-flow: unset !important;">
+                                    <div class="col-sm-6" style="    width: 50%;">
+                                        <div class="m-i2-cpd box-uof-img">
+                                            <img style="width: 100%; height: 466px;" src="/product-image/@Model.ImageModelView[0].name" class=" ls-is-cached lazyloaded" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6" style="    width: 50%;">
+                                        <input type="hidden" value="@(Model.price_sell.HasValue && Model.price_sell.Value > 0 ? Model.price_sell.Value:0)" class="product-price" />
+                                        <div class="b-s-1 bg-shadow" style="padding-right: 60px;">
+                                            <h4 class="tt-prod NoneMB">@Model.name</h4>
+                                            @{
+                                                string priceStr = "";
+                                                string price_reducedstr = "";
+                                                if (Model.price_sell.HasValue && Model.price_sell.Value > 0)
+                                                {
+                                                    priceStr = Model.price_sell.Value.ToString("#,###");
+                                                }
+                                                if (Model.price_reduced.HasValue && Model.price_reduced.Value > 0)
+                                                {
+                                                    price_reducedstr = Model.price_reduced.Value.ToString("#,###");
+                                                }
+
+                                            }
+
+                                            <h2 class="price-prod NoneMB">
+                                                @if (!string.IsNullOrEmpty(price_reducedstr))
+                                                {
+                                                    <strike>@price_reducedstr đ</strike>
+                                                }
+                                                @priceStr đ
+                                            </h2>
+
+                                            <p class="txt-title-danh-muc">
+                                                <span class="danh-muc-lable">Danh mục: </span>
+                                                <span class="danh-muc-name"> @Model.categorystr</span>
+                                            </p>
+                                            @if (!string.IsNullOrEmpty(Model.trademarkStr))
+                                            {
+                                                <p class="txt-title-danh-muc">
+                                                    <span class="danh-muc-lable">Thương Hiệu: </span>
+                                                    <span class="danh-muc-name"> @Model.trademarkStr</span>
+                                                </p>
+                                            }
+                                            @Html.Raw(Model.description_short)
+                                            <div class="html_after_addtocart" style="background-color: #fffaf3;padding: 8px;border: 2px dashed #ee3880;font-size: 19px;border-radius: 4px/* text-align: center; */">
+                                                <b style="color: #EE3880;">HỖ TRỢ MUA HÀNG</b><br>
+                                                <b>0975 436 989 / 024 66 737 999</b><br><span style="font-size:14px"> (Sản phẩm chính hãng 100%, đổi trả 30 ngày, Free ship)</span>
+                                            </div>
+                                            @*<p>Không bỏ lỡ xu hướng với những màu son siêu đình đám và được ưu chuộng, Tom Ford tung ra thứ vũ khí tuyệt hảo Son Tom Ford Lip Color.</p>*@
+
+                                            <div class="grid mg-left-5">
+                                                <div class="grid__item large--one-fifth medium--one-fifth small--one-whole pd-left5">
+                                                    <div class="product-quantity clearfix">
+                                                        <div class="qty-addcart clearfix">
+                                                            <span style="    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+    display: inline-block;">Số lượng </span>
+                                                            <div class="js-qty">
+                                                                <button type="button" class="js-qty__adjust js-qty__adjust--minus icon-fallback-text quantity-left-minus minus custom-button-quantity">
+                                                                    <span class="icon icon-minus fa-solid fa-minus" aria-hidden="true"></span>
+                                                                </button>
+                                                                <input type="number" class="js-qty__num input-number input-custom-button-quantity" value="1" min="1" aria-label="quantity" oninput="this.value = !!this.value && Math.abs(this.value) >= 1 ? Math.abs(this.value) : 1" pattern="[0-9]*" name="quantity" id="quantity">
+                                                                <button type="button" class="js-qty__adjust js-qty__adjust--plus icon-fallback-text quantity-right-plus plus custom-button-quantity custom-button-quantity-plus">
+                                                                    @*<span class="icon icon-plus fa-regular fa-plus" aria-hidden="true"></span>*@
+                                                                    <span class="icon-plus fa-solid fa-plus"></span>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <a href="javascript:void(0)" class="btn btn-black py-3 px-5 btn-block btn-add-cart" style="    color: #fff;
+                                font-weight: bold;
+                                background-color: #ee3880 !important;
+                                padding: 10px 20px;
+                                border-radius: 5px;">
+                                                MUA NGAY <i class="ion-ios-add ml-1"></i>
+                                            </a>
+
+                                            <strong>
+                                                <form action="/cart/add" method="post" enctype="multipart/form-data" id="AddToCartForm" class="form-vertical">
+                                                    <div class="product-variants-wrapper">
+                                                        <div class="selector-wrapper" style="display: none;">
+                                                            <label for="productSelect-option-0">Tiêu đề</label>
+                                                            <select class="single-option-selector" data-option="option1" id="productSelect-option-0">
+                                                                <option value="Default Title">Default Title</option>
+                                                            </select>
+                                                        </div>
+                                                        <select name="id" id="productSelect" class="product-single__variants hide" style="display: none;">
+                                                            <option selected="selected" data-sku="8936071672704" value="1059516180">Default Title - 80,000 VND</option>
+                                                        </select>
+                                                        <div id="product-select-watch" class="select-swatch">
+                                                        </div>
+                                                    </div>
+                                                    @*<div class="info-box-1">
+                                                    <p class="box-title">Khuyến mãi &amp; Ưu đãi tại </p>
+                                                    <ul>
+                                                    <li>
+                                                    <strong>
+                                                    <span style="color:#1abc9c">Giao hàng trên toàn quốc</span>
+                                                    </strong>
+                                                    </li>
+                                                    <li>
+                                                    <strong>
+                                                    <span style="color:#1abc9c">Giao gấp trong 2h</span>
+                                                    </strong>
+                                                    </li>
+                                                    <li>
+                                                    <strong>
+                                                    <span style="color:#1abc9c"> Cam kết hàng chất lượng</span>
+                                                    </strong>
+                                                    </li>
+                                                    </ul>
+                                                    </div>*@
+
+                                                    @*<div class="info-box-2">
+                                                    <p class="box-content">Gọi đặt mua <a href="tel:024 3994 7159"><span style="color:#ff9900">(024) 3994 7159</span></a> (Thứ 2 - Thứ 6 | 08:00 - 17:00)</p>
+                                                    </div>*@
+                                                </form>
+                                            </strong>
+
+
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="col-sm-12">
+                                    <div class="product-content-left">
+
+                                        <div class="row">
+                                            <div class="col-sm-12" style="padding-right: 35px; padding-left: 35px;">
+                                                <div class="grid">
+                                                    <strong>
+                                                    </strong>
+                                                    <div class="grid__item large--nine-twelfths medium--one-whole small--one-whole" style="    margin-top: 30px;">
+                                                        <strong>
+                                                        </strong>
+                                                        <div class="product-description-wrapper">
+                                                            <div class="tab clearfix">
+                                                                <button class="pro-tablinks active" id="defaultOpenProTabs">Thông tin sản phẩm</button>
+                                                            </div>
+                                                            @Html.Raw(Model.description)
+                                                            <div class="star_box">
+                                                                <div class="star-average">
+                                                                    <div class="woocommerce-product-rating">
+                                                                        <span class="star_average">@(Model.star.HasValue && Model.star.Value > 0 ? Model.star.Value + ".0": "0.0") <i class="fa-regular fa-star"></i></span>
+                                                                        <strong>Đánh giá trung bình</strong>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="star_box_left">
+                                                                    <div class="reviews_bar">
+                                                                        <div class="devvn_review_row">
+                                                                            <span class="devvn_stars_value">5<i class="fa-regular fa-star"></i></span>
+                                                                            <span class="devvn_rating_bar">
+                                                                                <span style="background-color: #eee" class="devvn_scala_rating">
+                                                                                    <span class="devvn_perc_rating" style="width: 0%; background-color: #f5a623"></span>
+                                                                                </span>
+                                                                            </span>
+                                                                            <span class="devvn_num_reviews"><b>@Model.startPercentFive%</b> | @Model.startFive đánh giá</span>
+                                                                        </div>
+                                                                        <div class="devvn_review_row">
+                                                                            <span class="devvn_stars_value">4<i class="fa-regular fa-star"></i></span>
+                                                                            <span class="devvn_rating_bar">
+                                                                                <span style="background-color: #eee" class="devvn_scala_rating">
+                                                                                    <span class="devvn_perc_rating" style="width: 0%; background-color: #f5a623"></span>
+                                                                                </span>
+                                                                            </span>
+                                                                            <span class="devvn_num_reviews"><b>@Model.startPercentFour%</b> | @Model.startFour đánh giá</span>
+                                                                        </div>
+                                                                        <div class="devvn_review_row">
+                                                                            <span class="devvn_stars_value">3<i class="fa-regular fa-star"></i></span>
+                                                                            <span class="devvn_rating_bar">
+                                                                                <span style="background-color: #eee" class="devvn_scala_rating">
+                                                                                    <span class="devvn_perc_rating" style="width: 0%; background-color: #f5a623"></span>
+                                                                                </span>
+                                                                            </span>
+                                                                            <span class="devvn_num_reviews"><b>@Model.startPercentThree%</b> | @Model.startThree đánh giá</span>
+                                                                        </div>
+                                                                        <div class="devvn_review_row">
+                                                                            <span class="devvn_stars_value">2<i class="fa-regular fa-star"></i></span>
+                                                                            <span class="devvn_rating_bar">
+                                                                                <span style="background-color: #eee" class="devvn_scala_rating">
+                                                                                    <span class="devvn_perc_rating" style="width: 0%; background-color: #f5a623"></span>
+                                                                                </span>
+                                                                            </span>
+                                                                            <span class="devvn_num_reviews"><b>@Model.startPercentTwo%</b> | @Model.startTwo đánh giá</span>
+                                                                        </div>
+                                                                        <div class="devvn_review_row">
+                                                                            <span class="devvn_stars_value">1<i class="fa-regular fa-star"></i></span>
+                                                                            <span class="devvn_rating_bar">
+                                                                                <span style="background-color: #eee" class="devvn_scala_rating">
+                                                                                    <span class="devvn_perc_rating" style="width: 0%; background-color: #f5a623"></span>
+                                                                                </span>
+                                                                            </span>
+                                                                            <span class="devvn_num_reviews"><b>@Model.starPercentOne%</b> | @Model.starOne đánh giá</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="star_box_right">
+                                                                    <a href="javascript:void(0)" title="Đánh giá ngay" class="btn-reviews-now">Đánh giá ngay</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                @*  </div>*@
+                            </div>
+                        </section>
+                        @*<section class="ftco-section ftco-degree-bg" style="padding-top:0px;padding-bottom: 0px;">
+                        <div class="container">
+                        <div class="row">
+                        <div class="col-lg-7 custom-description">
+                        <h2 class="mb-3">Mô tả sản phẩm</h2>
+                        @Html.Raw(Model.description)
+                        </div>
+                        <div class="col-lg-5 sidebar">
+                        @if (!string.IsNullOrEmpty(Model.specifications))
+                        {
+                        <div class="sidebar-box box-specifications" style="margin-bottom:0px">
+                        <h3 class="heading" style="background-color: rgb(0, 0, 0); padding: 1vh; color: rgb(255, 255, 255);margin-bottom: 0px;padding: 10px 10px;">Thông số kỹ thuật</h3>
+                        @Html.Raw(Model.specifications)
+                        </div>
+                        }
+
+
+                        @await Component.InvokeAsync("ProductsLikeComponent", new{categoryId=Model.category_id})
+
+                        </div>
+                        </div>
+                        </div>
+                        </section>
+
+                        @await Component.InvokeAsync("RelatedProductsComponent",new {categoryId= Model.category_id,productId=Model.id})*@
+
+                    </div>
+
+                    <div id="ReviewModal" tabindex="-1" role="dialog" aria-labelledby="categoryModalTitle" class="modal fade" aria-modal="true">
+                        <div role="document" class="modal-dialog modal-dialog-centered">
+                            <form id="form-submit-review" action="#" style="width: 100%;">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-primary">
+                                        <h5 id="titleModal" class="modal-title white name-product ">@Model.name</h5>
+                                        <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="comment-form-rating">
+                                            <label for="rating">Bạn cảm thấy thế nào về sản phẩm? (Chọn sao)</label>
+                                            <select name="rating" id="star" required="" aria-required="true">
+                                                @*<option value="">Xếp hạng…</option>*@
+                                                <option value="5">Rất tốt</option>
+                                                <option value="4">Tốt</option>
+                                                <option value="3">Trung bình</option>
+                                                <option value="2">Không tệ</option>
+                                                <option value="1">Rất tệ</option>
+                                            </select>
+                                        </div>
+                                        <div class="">
+                                            <input id="fullname" name="fullname" type="text" required="" placeholder="Họ tên (bắt buộc)" aria-required="true">
+                                            @* <input id="comment" name="comment" type="text"   placeholder="comment "> *@
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer" style="border:unset">
+                                        <button class="btn btn-primary me-1 mb-1 btn-submit-format btn-success" style="border: none;color: #fff;">Đánh Giá</button>
+                                        @*<a href="javascript:void(0)" class="btn btn-primary me-1 mb-1 btn-submit-format btn-success" style="border: none;color: #fff;">Đánh Giá</a>*@
+                                        <a href="#" class="btn btn-primary me-1 mb-1 btn-submit-format" data-dismiss="modal" style="background: #ddd; border: none;color: black;">Hủy</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="categoryModal" tabindex="-1" role="dialog" aria-labelledby="categoryModalTitle" class="modal fade" aria-modal="true">
+                        <div role="document" class="modal-dialog modal-dialog-centered">
+                            <form id="form-submit" action="#" style="width: 100%;">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-primary">
+                                        <h5 id="titleModal" class="modal-title white ">Vui lòng đăng nhập</h5>
+                                        <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                    </div>
+                                    @*  <div class="modal-body">
+                                    </div> *@
+                                    <div class="modal-footer" style="border:unset">
+                                        <a href="/dang-nhap" class="btn btn-primary me-1 mb-1 btn-submit-format btn-success" style="border: none;color: #fff;">Đăng nhập</a>
+                                        <a href="#" class="btn btn-primary me-1 mb-1 btn-submit-format" data-dismiss="modal" style="background: #ddd; border: none;color: black;">Hủy</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="categoryModalOverStock" tabindex="-1" role="dialog" aria-labelledby="categoryModalTitle" class="modal fade" aria-modal="true">
+                        <div role="document" class="modal-dialog modal-dialog-centered">
+                            <form id="form-submit" action="#" style="width: 100%;">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-primary">
+                                        <h5 id="titleModal" class="modal-title white ">Số lượng mua vượt quá số lượng trong kho </h5>
+                                        <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Tổng số lượng còn lại trong kho là: <span class="soluongcong"></span></p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        @*<a href="/dang-nhap" class="btn btn-primary me-1 mb-1 btn-submit-format btn-success" style="border: none;color: #fff;">Đăng nhập</a>*@
+                                        <a href="#" class="btn btn-primary me-1 mb-1 btn-submit-format" data-dismiss="modal" style="background: #ddd; border: none;color: #ee3880 !important;">OK</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="CartsModal" tabindex="-1" role="dialog" aria-labelledby="categoryModalTitle" class="modal fade" aria-modal="true">
+                        <div role="document" class="modal-dialog modal-dialog-centered">
+                            <form id="form-submit" action="#">
+                                <div class="modal-content">
+                                    <div class="modal-header bg-primary">
+                                        <h5 id="titleModal" class="modal-title white ">Bạn đã thêm vào giỏ hàng thành công</h5>
+                                        <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                                    </div>
+                                    @*  <div class="modal-body">
+                                    </div>*@
+                                    <div class="modal-footer">
+
+                                        <a href="#" class="btn btn-primary me-1 mb-1 btn-submit-format" data-dismiss="modal" style="background: #ee3880 !important;color: #fff;">OK</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".btn-reviews-now").click(function () {
+                $("#ReviewModal").modal("show");
+            })
+
+            $(".plus").click(function () {
+                debugger;
+                var value = parseInt($("#quantity").val());
+                if (value < 9999 && value >= 1) {
+                    $("#quantity").val(value + 1);
+                }
+
+            })
+            $(".minus").click(function () {
+                var value = parseInt($("#quantity").val());
+                if (value > 1) {
+                    $("#quantity").val(value - 1);
+                }
+
+            })
+            $(".btn-add-cart").click(function () {
+                var price = parseInt($("#quantity").val()) * parseInt($(".product-price").val());
+                $.ajax({
+                    url: '/Carts/Add',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: {
+                        product_id: $(".product-id").val(),
+                        quantity: $("#quantity").val(),
+                        price: price,
+                        sizeId: parseInt($(".sizes.tick").attr('data-size'))
+                    },
+                    beforeSend: function () {
+                    },
+                    complete: function () {
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            $("#CartsModal").modal("show");
+                        }
+                        else if (response.overstock && response.tongsoconlai > 0) {
+                            $("#categoryModalOverStock").modal("show");
+                            $(".soluongcong").text(response.tongsoconlai);
+
+                        }
+                        else {
+                            $("#categoryModal").modal("show");
+                        }
+                    }
+                })
+
+            })
+
+            $("#form-submit-review").validate({
+                rules:
+                {
+                    fullname: {
+                        required: true,
+                    },
+                    comment: {
+                        required: true
+                    }
+                },
+                messages:
+                {
+                    fullname: {
+                        required: "Họ tên không được để trống"
+                    },
+                    comment: {
+                        required: "Comment không được để trống"
+                    }
+                },
+                submitHandler: function (form) {
+                    debugger
+                    var ReviewsModelView ={
+                        product_id:$(".product-id").val(),
+                        fullname:$("#fullname").val(),
+                        comment:$("#comment").val(),
+                        star:$("#star").val()                        
+                    };
+                    $.ajax({
+                        url: '/Admin/Reviews/Add',
+                        type: 'POST',
+                        dataType: 'json',
+                        data: {
+                            ReviewsModelView: ReviewsModelView
+                        },
+                        beforeSend: function () {
+                            Loading('show');
+                        },
+                        complete: function () {
+                            Loading('hiden');
+                        },
+                        success: function (response) {
+                              $("#ReviewModal").modal("hide");
+                            alert("Đánh giá thành công");
+                            window.location.reload();
+                            //if (response.success) {
+                            //    tedu.notify('Thêm mới dữ liệu thành công', 'success');
+                            //    self.GetDataPaging(true);
+                            //    window.location.href = '/admin/quan-ly-bai-viet';
+                            //}
+                            //else {
+                            //    if (response.isNameExist) {
+                            //        $(".product-name-exist").show().text("Phone đã tồn tại");
+                            //    }
+                            //}
+                        }
+                    })
+                }
+            });
+
+        })
+
+
+
+        function AddSize(id, tag) {
+            $(".sizes").removeClass("tick");
+            $(tag).addClass("tick");
+        }
+
+
+    </script>
+}

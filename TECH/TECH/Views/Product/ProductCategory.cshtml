@@ -1,0 +1,370 @@
+﻿@using TECH.Areas.Admin.Models
+@model List<ProductModelView>
+@{
+    ViewData["Title"] = "ProductCategory";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .product-category .ul-nmn {
+        background-color: #8fa815 !important;
+        display: inline-block;
+    }
+
+        .product-category .ul-nmn > li {
+            float: unset;
+            margin-left: unset;
+        }
+
+    .t-prod-H .t_span1 span.tab_news5 {
+        background: #89a600;
+    }
+
+    .t-prod-H {
+        background: #e6e6e6;
+        border-bottom: 1px solid #fff;
+        display: block;
+        width: 100%;
+        height: 41px;
+        margin-bottom: 0px;
+    }
+
+        .t-prod-H .t_span1 span.tab_news5 {
+            background: #89a600;
+        }
+
+    .info-prod-H h3 {
+        color: #333;
+        font-weight: 400;
+        padding: 8px;
+        font-size: 13px;
+        margin: 0px;
+    }
+
+    .info-prod-H h4 {
+        font-size: 14px;
+        font-weight: 700;
+        color: #f8456a;
+        margin: 0px;
+        font-size: 13px;
+    }
+
+    .t-prod-H .t_span1 span {
+        text-transform: uppercase;
+        color: #fff;
+        float: left;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0 20px;
+        height: 100%;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .item {
+        width: 100%;
+        display: inline-block;
+        height: 348px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    .shoe-product .product-item {
+        width: 25%;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+        margin: 10px 0 15px;
+        text-align: left;
+    }
+
+    .shoe-product .images {
+        position: relative;
+        padding-bottom: 100%;
+        height: 0;
+    }
+
+    .ribbon {
+        display: block;
+        right: 0;
+        top: 0;
+        z-index: 9;
+        overflow: hidden;
+        width: 73px;
+        height: 66px;
+        text-align: center;
+        position: absolute;
+    }
+
+        .ribbon span {
+            height: 26px;
+            overflow: hidden;
+            font-size: 11px;
+            color: #fff;
+            text-align: center;
+            font-weight: 400;
+            line-height: 26px;
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            width: 103px;
+            display: block;
+            background: #f7941d;
+            background: linear-gradient(#f7941d 0,#f7941d 100%);
+            box-shadow: 0 3px 10px -5px #000;
+            top: 11px;
+            position: absolute;
+        }
+
+    .shoe-product img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        overflow: hidden;
+        border: 1px solid #dadada;
+    }
+
+    .shoe-product .info {
+        position: relative;
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+        .shoe-product .info h3 {
+            font-size: 14px;
+            margin: 5px 0;
+            overflow: hidden;
+            font-weight: 400;
+            /* height: 41px; */
+            line-height: 22px;
+            text-transform: unset;
+            display: -webkit-box;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            height: 3.4em;
+        }
+
+        .shoe-product .info p {
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 5px;
+            color: #e77e24;
+        }
+
+            .shoe-product .info p sup {
+                padding-left: 2px;
+                color: #e77e24;
+            }
+
+            .shoe-product .info p span {
+                color: #666;
+                text-decoration: line-through;
+                padding-left: 10px;
+                height: auto;
+                font-size: 16px;
+            }
+
+    .shoe-product h3 a, .shoe-product li h3 a {
+        display: table-cell;
+        vertical-align: middle;
+        text-overflow: ellipsis;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .custom-menu .ul-nmn {
+        background-color: unset !important;
+    }
+
+        .custom-menu .ul-nmn img {
+            display: none;
+        }
+
+        .custom-menu .ul-nmn > li {
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 13px;
+            z-index: 0 !important;
+        }
+
+            .custom-menu .ul-nmn > li a {
+                padding: 0px;
+            }
+            .product-custom-list .box-list{
+                width:100% !important;
+                display: inline-block;
+            }
+            .product-custom-list .box-list-one{
+                    background: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+            }
+           .product-custom-list{
+                background-color: #ececec;
+            }
+
+</style>
+
+
+<section class="section index-page product-custom-list" id="section_1651314496">
+    <div class="section-content relative">
+        <div class="row row-collapse box-list-one" id="row-129696177">
+            <div id="col-1482409081" class="col small-12 large-12">
+                <div class="col-inner text-center">
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        <section id="breadcrumb-wrapper" style="    margin-bottom: 20px;
+    display: inline-block;
+    padding-top: 20px;    width: 100%;">
+                            <div class="breadcrumb-content">
+                                <div class="wrapper" style="display: inline-block;float: left;">
+                                    <div class="inner">
+                                        <div class="breadcrumb-small">
+                                            <a href="/" title="Quay trở về trang chủ">Trang chủ</a>
+                                            <span class="mr_lr">&nbsp;/&nbsp;</span>
+                                            <a href="/san-pham/@Model[0].category_id" target="_self">
+                                                <span>@Model[0].categorystr</span>
+                                            </a>
+                                            <input type="hidden" value="@Model[0].category_id" id="categoryId" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__item mg-bottom-10 large--one-half medium--one-half small--one-whole text-right" style="display: inline-block; float: right;">
+                                    <div class="col-sorting">
+                                        <div class="form-horizontal">
+                                            @*<label for="SortBy">Sắp xếp</label>*@
+                                            <select name="SortBy" id="SortBy">
+                                                <option value="manual">Tùy chọn</option>
+                                                <option value="1">Theo bảng chữ cái từ A-Z</option>
+                                                <option value="2">Theo bảng chữ cái từ Z-A</option>
+                                                <option value="3">Giá từ thấp tới cao</option>
+                                                <option value="4">Giá từ cao tới thấp</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="row  equalize-box large-columns-5 medium-columns-3 small-columns-2 row-small">
+                            @foreach (var item in Model)
+                            {
+                                <div style="margin-left: unset; margin-right:unset;" class="product-small col has-hover product type-product post-35267 status-publish first instock product_cat-son-christian-louboutin product_cat-son-thoi has-post-thumbnail sale featured shipping-taxable purchasable product-type-simple">
+                                    <div class="col-inner">
+                                        <div class="product-small box ">
+                                            <div class="box-image">
+                                                <div class="image-fade_in_back">
+                                                    <a href="/chi-tiet-san-pham/@item.id" aria-label="Son Lì Christian Louboutin Màu 600M Miss Loubi – Hồng Cam Đào">
+                                                        <img decoding="async" width="300" height="300" src="/product-image/@(item.ImageModelView != null && item.ImageModelView.Count > 0? item.ImageModelView[0].name:"")" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="box-text box-text-products text-center grid-style-2" style="height: 187.575px;">
+                                                <div class="title-wrapper">
+                                                    <p class="name product-title woocommerce-loop-product__title" style="height: 64.45px;">
+                                                        <a href="/chi-tiet-san-pham/@item.id" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">@item.name</a>
+                                                    </p>
+                                                </div><div class="price-wrapper" style="height: 35.05px;">
+                                                    <span class="price">
+
+                                                        @if (!string.IsNullOrEmpty(item.price_reduced_str))
+                                                        {
+                                                            <del aria-hidden="true">
+                                                                <span class="woocommerce-Price-amount amount">
+                                                                    <bdi>@item.price_reduced_str &nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi>
+                                                                </span>
+                                                            </del>
+                                                        }
+                                                        @if (!string.IsNullOrEmpty(item.price_sell_str))
+                                                        {
+                                                            <ins>
+                                                                <span class="woocommerce-Price-amount amount"><bdi>@item.price_sell_str &nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
+                                                            </ins>
+                                                        }
+                                                    </span>
+                                                    <div class="star-rating-formats"><span style="width:0%">
+                                                            
+                                                        @if (item.star.HasValue && item.star.Value > 0)
+                                                            {
+                                                                int start_number = 5 - item.star.Value;
+                                                                @for (int i = 1; i <= item.star.Value; i++)
+                                                                {
+                                                                    <i class="fa-regular fa-star" style="color:#cf2e2e;"></i>
+                                                                }
+                                                                @for (int i = 1; i <= start_number; i++)
+                                                                {
+                                                                    <i class="fa-regular fa-star"></i>
+                                                                }
+                                                            }else{
+                                                                 <i class="fa-regular fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                            <i class="fa-regular fa-star"></i>
+                                                            }
+                                                           
+                                                           @* <strong itemprop="ratingValue" class="rating">0</strong>*@
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="add-to-cart-button" style="height: 43.8875px;"><a href="/chi-tiet-san-pham/@item.id" data-quantity="1" class="primary is-small mb-0 button product_type_simple add_to_cart_button ajax_add_to_cart is-flat" data-product_id="35267" data-product_sku="" aria-label="Add to cart: “Son Lì Christian Louboutin Màu 600M Miss Loubi – Hồng Cam Đào”" aria-describedby="" rel="nofollow">Xem ngay</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }else{
+                        <p style="text-align: center;
+    min-height: 300px;
+    display: inline-flex;
+    align-items: center;
+    align-items: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #EE3880;">Danh mục chưa có sản phẩm </p>
+                    }
+                   
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            debugger
+            $('#SortBy').on('change', function () {
+                window.location.href = '/san-pham?categoryId=' + $("#categoryId").val() + "&sort=" + this.value;
+            });
+            var sort = urlParamCustom("sort");
+            if (sort != null) {
+                $('#SortBy').val(sort);
+            }
+        })
+        function urlParamCustom(name) {
+            var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+            if (results == null) {
+                return null;
+            }
+            return decodeURI(results[1]) || 0;
+        }
+    </script>
+}

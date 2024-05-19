@@ -1,0 +1,39 @@
+﻿@using TECH.Areas.Admin.Models;
+@model CategoryModelView
+@if (Model != null && !string.IsNullOrEmpty(Model.name))
+{
+
+   <style>
+    #CartsModalIndex .modal-header{
+        width: 100%;
+    border: none;
+    padding-bottom: 0px;
+    }
+     #CartsModalIndex .custom-title{
+            width: 100%;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 13px;
+    }
+</style>
+
+<div  id="CartsModalIndex" tabindex="-1" role="dialog" aria-labelledby="categoryModalTitle" class="modal fade" aria-modal="true">
+   <div  role="document" class="modal-dialog modal-lg">
+      <form id="form-submit" action="#">
+         <div data-v-adb00300 class="modal-content bg-black">
+            <div  class="modal-header">
+               <h5  id="userModalTitle" class="modal-title custom-title text-white text-center">GIÁ CẢ BÊN HIẾU TÁO LÀ MẮC NHẤT TÂY NINH</h5>
+               <button  type="button" data-dismiss="modal" aria-label="Close" class="close"><span  aria-hidden="true">×</span></button>
+            </div>
+             <div data-v-adb00300="" class="modal-body" style="height: 450px;">
+                    <img data-v-adb00300="" src="/product-advertisement/@Model.name" alt="" class="img-ad" style="width: 100%;height:100%"></div>     
+         </div>
+      </form>
+   </div>
+</div>
+
+}
+
+
+

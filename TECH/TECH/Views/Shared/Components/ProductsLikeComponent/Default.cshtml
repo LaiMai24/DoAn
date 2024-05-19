@@ -1,0 +1,30 @@
+﻿@using TECH.Areas.Admin.Models
+@model List<ProductModelView>
+@if (Model != null && Model.Count > 0)
+{
+    <div data-v-f7970b56="" class="sidebar-box">
+        <h3 data-v-f7970b56="" class="heading" style="background-color: rgb(0, 0, 0); padding: 1vh; color: rgb(255, 255, 255);">Có thể bạn thích</h3>
+        @foreach (var item in Model)
+        {
+              string priceStr = "";
+                    @if (item.price > 0)
+                                    {
+                priceStr = item.price.Value.ToString("#,###");
+                                    }
+                                    
+
+            <div data-v-f7970b56="" class="block-21 mb-4 d-flex">
+                <img data-v-f7970b56="" src="/product-image/@item.avatar" alt="" class="blog-img mr-4">
+                <div data-v-f7970b56="" class="text">
+                    <h3 data-v-f7970b56="" class="heading-1"><a data-v-f7970b56="" href="/chi-tiet-san-pham/@item.id">@item.name</a></h3>
+                    <div data-v-f7970b56="" class="meta">
+                        <div data-v-f7970b56="" class="price-color">@priceStr<i data-v-f7970b56="">đ</i></div>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+}
+
+

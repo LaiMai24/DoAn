@@ -1,0 +1,61 @@
+﻿@{
+    Layout = null;
+}
+
+<div id="feeModal" tabindex="-1" aria-labelledby="feeModalTitle" class="modal fade" aria-modal="true" role="dialog">
+   <div role="document" class="modal-dialog">
+      <form id="form-submit" action="#" method="#">
+         <div class="modal-content">
+            <div class="modal-header bg-primary">
+               <h5 id="titleModal" class="modal-title white">Thêm mới phí vận chuyển</h5>
+               <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="form-group has-icon-left">
+                        <label for="password-id-icon">Thành phố</label> 
+                        <div class="position-relative">
+                           <select class="form-select select" id="cities" name="cities" onchange="GetDistrictForCityId(this)">
+                              
+                           </select>
+                        </div>
+                        <!---->
+                     </div>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="form-group has-icon-left">
+                        <label for="password-id-icon">Quận/Huyện</label> 
+                        <div class="position-relative">
+                           <select class="form-select select" id="district"  name="district" onchange="GetWardsForDistrictId(this)">
+                             @* <option value="" disabled="disabled">Chọn quận/huyện</option>*@
+                           </select>
+                        </div>
+                        <!---->
+                     </div>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="form-group has-icon-left">
+                        <label for="password-id-icon">Phường/Xã</label> 
+                        <div class="position-relative">
+                           <select class="form-select select" id="wards" name="wards">
+                               @*<option value="" disabled="disabled">Chọn Phường/Xã</option>*@
+                           </select>
+                        </div>
+                        <!---->
+                     </div>
+                  </div>
+                  <div class="col-12">
+                     <div class="form-group">
+                        <label for="first-name-icon"> Phí vận chuyển </label> 
+                        <div class="position-relative"><input type="number" id="fees" name="fees" placeholder="Nhập phí vận chuyển" min="1000" class="form-control"></div>
+                        <!---->
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-footer"><button type="submit" class="btn btn-primary me-1 mb-1 btn-submit-format">Thêm mới</button></div>
+         </div>
+      </form>
+   </div>
+</div>

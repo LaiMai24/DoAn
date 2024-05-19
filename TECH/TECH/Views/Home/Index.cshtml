@@ -1,0 +1,262 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+        .titlehome{
+            margin: 20px 0px;
+        }
+        .info-prod-H {
+          /*  position: absolute;*/
+            /*right: 0;
+            bottom: 0;
+            left: 0;*/
+            padding: 0 5px 5px 5px;
+
+        }
+
+            .info-prod-H h3 {
+                color: #333;
+                font-weight: 400;
+                padding: 8px;
+                  font-size:13px;
+
+                      margin: 0px;
+            }
+
+            .info-prod-H h4 {
+                font-size: 14px;
+                font-weight: 700;
+                color: #f8456a;
+                    margin: 0px;
+                        font-size: 13px;
+
+            }
+            .item{
+                width: 100%;
+                display: inline-block;
+                height: 325px;
+               /* border-right: 1px solid #eaeaea;
+                border-bottom: 1px solid #eaeaea;*/
+                text-align: center;
+                position: relative;
+                overflow: hidden;
+                    padding: 0px 10px;
+                        border: 1px solid #ddd;
+            }
+        .img-prod-H {
+
+            display: block;
+
+            margin: 10px auto 0 auto;
+
+             max-height: 250px;
+        }
+        .box-products .col-sm-4{
+            padding: 0px 0px;
+        }
+        .t_span1 span{ cursor:pointer;}
+
+        .padmb{
+                margin-top: 42px;
+        display: inline-block;
+        width: 100%;
+        }
+        .title-sale {
+            text-align: center;
+            position: relative;
+            margin-top: 10px;
+            margin-bottom: 17px;
+        }
+
+            .title-sale:before {
+                content: "";
+                display: block;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                height: 9px;
+                width: 50%;
+                border-top: 1px solid #e77e24;
+                border-bottom: 1px solid #e77e24;
+            }
+            .title-sale p {
+        margin: 0 auto;
+        z-index: 2;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 50px;
+        padding: 0 63px;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        overflow: hidden;
+        background: #353535;
+        -webkit-box-shadow: inset 0 3px 0 0 #e77e24, inset 0 -3px 0 0 #e77e24;
+        -moz-box-shadow: inset 0 3px 0 0 #e77e24,inset 0 -3px 0 0 #e77e24;
+        box-shadow: inset 0 3px 0 0 #e77e24, inset 0 -3px 0 0 #e77e24;
+    }
+
+                .title-sale p:after, .title-sale p:before {
+                    content: "";
+                    display: block;
+                    width: 100px;
+                    height: 100px;
+                    position: absolute;
+                    background: #fff;
+                    z-index: 2;
+                    top: 0;
+                    bottom: 0;
+                    left: -63px;
+                    margin: auto 0;
+                    border: 4px solid #e77e24;
+                    -webkit-transform: rotate(45deg) skew(26deg,26deg);
+                    -moz-transform: rotate(45deg) skew(26deg,26deg);
+                    -ms-transform: rotate(45deg) skew(26deg,26deg);
+                    -o-transform: rotate(45deg) skew(26deg,26deg);
+                    transform: rotate(45deg) skew(26deg,26deg);
+                }
+
+                .title-sale p a {
+                    position: relative;
+                    display: inline-block;
+                    vertical-align: top;
+                    padding: 0 30px;
+                    color: #fff;
+                }
+
+                    .title-sale p a:before {
+                        content: "";
+                        position: absolute;
+                        left: -5px;
+                        top: 15px;
+                        background: url(image-common/favorites.svg) no-repeat;
+                        background-size: 20px;
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    .title-sale p a:after {
+                        content: "";
+                        position: absolute;
+                        right: -5px;
+                        top: 15px;
+                        background: url(image-common/favorites.svg) no-repeat;
+                        background-size: 20px;
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                .title-sale p:after {
+                    left: auto;
+                    right: -63px;
+                }
+
+            .title-sale:after {
+                content: "";
+                display: block;
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                height: 1px;
+                width: 70%;
+                background: #e77e24;
+            }
+
+</style>
+
+<div class="slider">
+    <div class="owl-carousel owl-theme owl-carousel-setting owl-home-main-slider">
+        <div class="items" style="height:550px;"><img style="height:100%" src="/image-side/sonxinh-banner-1.jpg" class="d-block w-100" alt="..."></div>
+        <div class="items" style="height:550px;"><img style="height:100%" src="/image-side/sonxinh-banner-2.jpg" class="d-block w-100" alt="..."></div>
+
+    </div>
+</div>
+
+@await Component.InvokeAsync("ProductHighlightComponent")
+
+@await Component.InvokeAsync("ProductForCategoryComponent")
+@await Component.InvokeAsync("PostComponent")
+@*
+<section class="section" id="section_1138289986">
+    <div class="bg section-bg fill bg-fill bg-loaded">
+    </div>
+    <div class="section-content relative">
+        <div class="row row-collapse" id="row-1591695533">
+            <div id="col-390253976" class="col danh-muc-sp small-12 large-12">
+                <div class="col-inner">
+                    <h2 class="products__title"><span style="font-size: 100%;">BLOG TIN TỨC</span></h2>
+                    <div class="row large-columns-3 medium-columns- small-columns-1 row-small has-shadow row-box-shadow-1">
+                        <div class="col post-item">
+                            <div class="col-inner">
+                                <div class="box box-shade dark box-text-bottom box-blog-post has-hover">
+                                    <div class="box-image">
+                                        <div class="image-cover" style="padding-top:56%;">
+                                            <a href="https://kyo.vn/top-5-chai-nuoc-hoa-nu-mui-ngot-khien-chang-say-dam/" class="plain" aria-label="Top 5 Chai Nước Hoa Nữ Mùi Ngọt Khiến Chàng Say Đắm">
+                                                <img loading="lazy" decoding="async" width="300" height="300" src="https://kyo.vn/wp-content/uploads/2023/10/Top-5-Chai-Nuoc-Hoa-Nu-Mui-Ngot-Ngao-Khien-Chang-Say-Dam-1-1-300x300.png" class="attachment-medium size-medium wp-post-image" alt="" srcset="https://kyo.vn/wp-content/uploads/2023/10/Top-5-Chai-Nuoc-Hoa-Nu-Mui-Ngot-Ngao-Khien-Chang-Say-Dam-1-1-300x300.png 300w, https://kyo.vn/wp-content/uploads/2023/10/Top-5-Chai-Nuoc-Hoa-Nu-Mui-Ngot-Ngao-Khien-Chang-Say-Dam-1-1-100x100.png 100w, https://kyo.vn/wp-content/uploads/2023/10/Top-5-Chai-Nuoc-Hoa-Nu-Mui-Ngot-Ngao-Khien-Chang-Say-Dam-1-1-768x768.png 768w, https://kyo.vn/wp-content/uploads/2023/10/Top-5-Chai-Nuoc-Hoa-Nu-Mui-Ngot-Ngao-Khien-Chang-Say-Dam-1-1-150x150.png 150w, https://kyo.vn/wp-content/uploads/2023/10/Top-5-Chai-Nuoc-Hoa-Nu-Mui-Ngot-Ngao-Khien-Chang-Say-Dam-1-1.png 800w" sizes="(max-width: 300px) 100vw, 300px">
+                                            </a>
+                                            <div class="shade"></div>
+                                        </div>
+                                    </div>
+                                    <div class="box-text text-center">
+                                        <div class="box-text-inner blog-post-inner">
+
+
+                                            <h5 class="post-title is-small uppercase">
+                                                <a href="https://kyo.vn/top-5-chai-nuoc-hoa-nu-mui-ngot-khien-chang-say-dam/" class="plain">Top 5 Chai Nước Hoa Nữ Mùi Ngọt Khiến Chàng Say Đắm</a>
+                                            </h5>
+                                            <div class="is-divider"></div>
+
+                                            <a href="https://kyo.vn/top-5-chai-nuoc-hoa-nu-mui-ngot-khien-chang-say-dam/" class="button  is-outline is-small mb-0">
+                                                Xem
+                                            </a>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <style>
+        #section_1138289986 {
+          padding-top: 0px;
+          padding-bottom: 0px;
+        }
+        #section_1138289986 .section-bg.bg-loaded {
+          background-image: url(/image-side/bg-tips.png);
+        }
+    </style>
+</section>*@
+
+
+@*@await Component.InvokeAsync("ProductNewComponent")*@
+
+@* @await Component.InvokeAsync("ProductForCategoryComponent") *@
+
+@*@await Component.InvokeAsync("ProductForCategoryComponent")*@
+
+@*@await Component.InvokeAsync("SidersComponent")*@
+@*sản phẩm bán chạy
+@await Component.InvokeAsync("ProductSellHotComponent")*@
+@*thương hiệu*@
+@*@await Component.InvokeAsync("ProductSellHotComponent")*@
+@*sản phẩm mới
+@await Component.InvokeAsync("ProductNewComponent")*@

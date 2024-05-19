@@ -1,0 +1,66 @@
+﻿@using TECH.Areas.Admin.Models
+@using TECH.Utilities
+@model PagedResult<PostModelView>
+
+@if (Model.Results != null && Model.Results.Count > 0)
+{
+    <section class="section" id="section_1138289986">
+        <div class="bg section-bg fill bg-fill bg-loaded">
+        </div>
+        <div class="section-content relative">
+            <div class="row row-collapse" id="row-1591695533">
+                <div id="col-390253976" class="col danh-muc-sp small-12 large-12">
+                    <div class="col-inner">
+                        <h2 class="products__title"><span style="font-size: 100%;">BLOG TIN TỨC</span></h2>
+                        <div class="row large-columns-3 medium-columns- small-columns-1 row-small has-shadow row-box-shadow-1">
+                            @foreach (var item in Model.Results)
+                            {
+                                <div class="col post-item">
+                                    <div class="col-inner">
+                                        <div class="box box-shade dark box-text-bottom box-blog-post has-hover">
+                                            <div class="box-image">
+                                                <div class="image-cover" style="padding-top:56%;">
+                                                    <a href="/chi-tiet-bai-viet/@item.id" class="plain" aria-label="Top 5 Chai Nước Hoa Nữ Mùi Ngọt Khiến Chàng Say Đắm">
+                                                        <img loading="lazy" decoding="async" width="300" height="300" src="/product-post/@item.avatar" class="attachment-medium size-medium wp-post-image" >
+                                                    </a>
+                                                    <div class="shade"></div>
+                                                </div>
+                                            </div>
+                                            <div class="box-text text-center">
+                                                <div class="box-text-inner blog-post-inner">
+                                                    <h5 class="post-title is-small uppercase">
+                                                        <a href="/chi-tiet-bai-viet/@item.id" class="plain">@item.title</a>
+                                                    </h5>
+                                                    <div class="is-divider"></div>
+                                                    <a href="/chi-tiet-bai-viet/@item.id" class="button  is-outline is-small mb-0">
+                                                        Xem
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <style>
+            #section_1138289986 {
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+
+                #section_1138289986 .section-bg.bg-loaded {
+                    background-image: url(/image-side/bg-tips.png);
+                }
+        </style>
+    </section>
+}
+
+
+

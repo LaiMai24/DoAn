@@ -1,0 +1,346 @@
+﻿@using TECH.Areas.Admin.Models
+@model List<ProductForCategoryModelView>
+
+@*<style>
+            .t-prod-H {
+
+            background: #e6e6e6;
+        border-bottom: 1px solid #fff;
+        display: block;
+        width: 100%;
+        height: 41px;
+        margin-bottom: 0px;
+
+    }
+    .t-prod-H .t_span1 span.tab_news5 {
+        background: #89a600;
+    }
+    .info-prod-H h3 {
+        color: #333;
+        font-weight: 400;
+        padding: 8px;
+        font-size: 13px;
+        margin: 0px;
+    }
+    .info-prod-H h4 {
+        font-size: 14px;
+        font-weight: 700;
+        color: #f8456a;
+        margin: 0px;
+        font-size: 13px;
+    }
+    .t-prod-H .t_span1 span {
+        text-transform: uppercase;
+        color: #fff;
+        float: left;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0 20px;
+            height: 100%;
+                display: inline-flex;
+        align-items: center;
+    }
+    .box-content-componse .row{
+        margin:0px;
+    }
+    .box-products{
+            margin-top: 30px;
+    }
+
+        .titlehome {
+            float: left;
+            width: 100%;
+            background: #fff;
+            border: 2px solid #ccc;
+            height: 53px;
+        }
+
+            .titlehome i {
+                line-height: 50px;
+                color: #fff;
+                height: 50px;
+                padding-right: 50px;
+                background-size: 50px 50px;
+                background-position: 25px 0;
+                background-repeat: no-repeat;
+                background-color: #a6a6a6;
+                margin-bottom: -4px;
+                border-radius: 0 50px 50px 0;
+                width: 120px;
+                float: left;
+                display:block;
+            }
+
+            .titlehome span {
+                width: 48px;
+                height: 48px;
+                margin: 1px 0 -4px -49px;
+                background: url(/image-common/favicon2.png) center no-repeat #fff;
+                font-weight: 700;
+                color: #010101;
+                float: left;
+                display: block;
+                border-radius: 50px;
+            }
+
+            .titlehome i, .titlehome span {
+                font-size: 24px;
+                text-align: center;
+            }
+
+            .titlehome h2 {
+                line-height: 41px;
+                padding-left: 20px;
+                padding-top: 5px;
+                font-size: 20px;
+                text-decoration: none;
+                color: #010101;
+                margin:0px;
+                float:left;
+            }
+
+                .titlehome h2 a {
+                    color: #e77e24;
+                }
+
+            .titlehome a.viewall {
+                color: #e77e24;
+                margin-right: 10px;
+            }
+
+            .titlehome .menuchild a, .titlehome a.viewall {
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+
+            .titlehome .menuchild, .titlehome a.viewall {
+                float: right;
+                margin-top: 13px;
+            }
+</style>*@
+@*<section id="" class="home-module-products">
+    <div class="hmodule-products-body">
+        <div class="wrapper">
+            <div class="inner">
+
+                @if (Model != null && Model.Count > 0)
+                {
+                    @foreach (var item in Model)
+                    {
+                        if (item.productModelViews != null && item.productModelViews.Count > 0)
+                        {
+                            <div class="padmb">
+                                <div class="title-sale">
+                                    <p><a title="@item.CategoryModelView.name">@item.CategoryModelView.name</a></p>
+                                </div>
+                            </div>
+                            <div class="see-more" style="display: inline-block;width:100%;margin-bottom: 10px;">
+                                <a href="/san-pham/@item.CategoryModelView.id" title="@item.CategoryModelView.name" class="viewall" style="float: right;">Xem tất cả</a>
+                            </div>
+                            @foreach (var itemProduct in item.productModelViews.Take(8))
+                            {
+                                <div class="grid__item pd-left10 large--one-quarter medium--one-third small--one-half">
+                                    <a href="/chi-tiet-san-pham/@itemProduct.id" class="product-item">
+                                        <div class="product-img">
+                                            @if (itemProduct.ImageModelView != null && itemProduct.ImageModelView.Count > 0)
+                                            {
+                                                <img id="1027125194" class="lazyload" src="/product-image/@itemProduct.ImageModelView[0].name" data-src="/product-image/@itemProduct.ImageModelView[0].name" alt="@itemProduct.name">
+                                            }
+                                        </div>
+                                        <div class="product-title text-center">
+                                            @itemProduct.name
+                                        </div>
+                                        <div class="product-price clearfix">
+                                            @if (!string.IsNullOrEmpty(itemProduct.price_sell_str))
+                                            {
+                                                <span class="current-price">@itemProduct.price_sell_str ₫</span>
+                                            }
+                                            @if (!string.IsNullOrEmpty(itemProduct.price_reduced_str))
+                                            {
+                                                <span class="original-price"><s>@itemProduct.price_reduced_str ₫</s> </span>
+                                            }
+                                        </div>
+                                    </a>
+                                </div>
+                            }
+                        }
+                    }
+                }
+
+            </div>
+        </div>
+    </div>
+</section>
+
+*@
+
+<section class="section index-page" id="section_1651314496" style="padding-bottom: 0px;">
+    <div class="section-content relative">
+        <div class="row row-collapse" id="row-129696177">
+            <div id="col-1482409081" class="col small-12 large-12">
+                <div class="col-inner text-center">
+
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        @foreach (var item in Model)
+                        {
+                            if (item.productModelViews != null && item.productModelViews.Count > 0)
+                            {
+                                <h2 class="products__title"><span style="font-size: 100%;">@item.CategoryModelView.name</span></h2>
+                                <div class="row  equalize-box large-columns-5 medium-columns-3 small-columns-2 row-small">
+                                    @foreach (var itemProduct in item.productModelViews.Take(5))
+                                    {
+                                        <div style="margin-left: unset; margin-right:unset" class="product-small col has-hover product type-product post-35267 status-publish first instock product_cat-son-christian-louboutin product_cat-son-thoi has-post-thumbnail sale featured shipping-taxable purchasable product-type-simple">
+                                            <div class="col-inner">
+                                                <div class="product-small box " style="border: 1px solid #ddd; border-radius: 4px;">
+                                                    <div class="box-image">
+                                                        <div class="image-fade_in_back">
+                                                            <a href="/chi-tiet-san-pham/@itemProduct.id" aria-label="Son Lì Christian Louboutin Màu 600M Miss Loubi – Hồng Cam Đào">
+                                                                <img decoding="async" width="300" height="300" src="/product-image/@(itemProduct.ImageModelView != null && itemProduct.ImageModelView.Count > 0? itemProduct.ImageModelView[0].name:"")" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box-text box-text-products text-center grid-style-2" style="height: 187.575px;">
+                                                        <div class="title-wrapper">
+                                                            <p class="name product-title woocommerce-loop-product__title" style="height: 64.45px;">
+                                                                <a href="/chi-tiet-san-pham/@itemProduct.id" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">@itemProduct.name</a>
+                                                            </p>
+                                                        </div><div class="price-wrapper" style="height: 35.05px;">
+                                                            <span class="price">
+
+                                                                @if (!string.IsNullOrEmpty(itemProduct.price_reduced_str))
+                                                                {
+                                                                    <del aria-hidden="true">
+                                                                        <span class="woocommerce-Price-amount amount">
+                                                                            <bdi>@itemProduct.price_reduced_str &nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi>
+                                                                        </span>
+                                                                    </del>
+                                                                }
+                                                                @if (!string.IsNullOrEmpty(itemProduct.price_sell_str))
+                                                                {
+                                                                    <ins>
+                                                                        <span class="woocommerce-Price-amount amount"><bdi>@itemProduct.price_sell_str &nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
+                                                                    </ins>
+                                                                }
+                                                            </span>
+                                                            <div class="star-rating-formats">
+                                                                <span style="width:0%">
+
+                                                                    @if (itemProduct.star.HasValue && itemProduct.star.Value > 0)
+                                                                    {
+                                                                        int start_number = 5 - itemProduct.star.Value;
+                                                                        @for (int i = 1; i <= itemProduct.star.Value; i++)
+                                                                        {
+                                                                            <i class="fa-regular fa-star" style="color:#cf2e2e;"></i>
+                                                                        }
+                                                                        @for (int i = 1; i <= start_number; i++)
+                                                                        {
+                                                                            <i class="fa-regular fa-star"></i>
+                                                                        }
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <i class="fa-regular fa-star"></i>
+                                                                        <i class="fa-regular fa-star"></i>
+                                                                        <i class="fa-regular fa-star"></i>
+                                                                        <i class="fa-regular fa-star"></i>
+                                                                        <i class="fa-regular fa-star"></i>
+                                                                    }
+
+                                                                    @* <strong itemprop="ratingValue" class="rating">0</strong>*@
+                                                                </span>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="add-to-cart-button" style="height: 43.8875px;"><a href="/chi-tiet-san-pham/@itemProduct.id" data-quantity="1" class="primary is-small mb-0 button product_type_simple add_to_cart_button ajax_add_to_cart is-flat" data-product_id="35267" data-product_sku="" aria-label="Add to cart: “Son Lì Christian Louboutin Màu 600M Miss Loubi – Hồng Cam Đào”" aria-describedby="" rel="nofollow">Xem ngay</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+
+                                </div>
+                                <a href="/san-pham/@item.productModelViews[0].category_id" class="button primary is-outline">
+                                    <span>Xem thêm</span>
+                                </a>
+
+                            }
+                        }
+
+                    }
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+@*
+
+@if (Model != null && Model.Count > 0)
+{
+    <section class="section index-page" id="section_1651314496">
+        <div class="section-content relative">
+            <div class="row row-collapse" id="row-129696177">
+                <div id="col-1482409081" class="col small-12 large-12">
+                    <div class="col-inner text-center">
+                        <h2 class="products__title"><span style="font-size: 100%;">SẢN PHẨM NỔI BẬT</span></h2>
+                        <div class="row  equalize-box large-columns-5 medium-columns-3 small-columns-2 row-small">
+                            @foreach (var item in Model)
+                            {
+                                <div style="margin-left: unset; margin-right:unset" class="product-small col has-hover product type-product post-35267 status-publish first instock product_cat-son-christian-louboutin product_cat-son-thoi has-post-thumbnail sale featured shipping-taxable purchasable product-type-simple">
+                                    <div class="col-inner">
+                                        <div class="product-small box ">
+                                            <div class="box-image">
+                                                <div class="image-fade_in_back">
+                                                    <a href="/chi-tiet-san-pham/@item.id" aria-label="Son Lì Christian Louboutin Màu 600M Miss Loubi – Hồng Cam Đào">
+                                                        <img decoding="async" width="300" height="300" src="/product-image/@item.ImageModelView[0].name" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="box-text box-text-products text-center grid-style-2" style="height: 187.575px;">
+                                                <div class="title-wrapper">
+                                                    <p class="name product-title woocommerce-loop-product__title" style="height: 64.45px;">
+                                                        <a href="https://kyo.vn/san-pham/son-li-christian-louboutin-mau-600m-miss-loubi-hong-cam-dao/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">Son Lì Christian Louboutin Màu 600M Miss Loubi – Hồng Cam Đào</a>
+                                                    </p>
+                                                </div><div class="price-wrapper" style="height: 35.05px;">
+                                                    <span class="price">
+
+                                                        @if (!string.IsNullOrEmpty(item.price_reduced_str))
+                                                        {
+                                                            <del aria-hidden="true">
+                                                                <span class="woocommerce-Price-amount amount">
+                                                                    <bdi>@item.price_reduced_str &nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi>
+                                                                </span>
+                                                            </del>
+                                                        }
+                                                        @if (!string.IsNullOrEmpty(item.price_sell_str))
+                                                        {
+                                                            <ins>
+                                                                <span class="woocommerce-Price-amount amount"><bdi>@item.price_sell_str &nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></bdi></span>
+                                                            </ins>
+                                                        }
+                                                    </span>
+                                                </div><div class="add-to-cart-button" style="height: 43.8875px;"><a href="?add-to-cart=35267" data-quantity="1" class="primary is-small mb-0 button product_type_simple add_to_cart_button ajax_add_to_cart is-flat" data-product_id="35267" data-product_sku="" aria-label="Add to cart: “Son Lì Christian Louboutin Màu 600M Miss Loubi – Hồng Cam Đào”" aria-describedby="" rel="nofollow">Mua ngay</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <a href="https://kyo.vn/shop?is_featured=1" class="button primary is-outline">
+                            <span>Xem thêm</span>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+}*@

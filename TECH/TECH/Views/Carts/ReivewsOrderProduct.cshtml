@@ -1,0 +1,83 @@
+﻿@using TECH.Areas.Admin.Models
+@model List<OrdersModelView>
+@{
+    ViewData["Title"] = "Index";
+    Layout = null;
+}
+@*@section Styles{
+    <style>
+       .custom-star .star-color{
+            margin-right: 8px;
+        }
+    </style>
+}*@
+@if (Model != null && Model.Count() > 0)
+{
+   @* var ids ="";
+    @if (Model[0].OrdersDetailModelView != null && Model[0].OrdersDetailModelView.Count > 0){
+        ids = @Model[0].OrdersDetailModelView.Select(p => p.product_id).ToString();
+    }*@
+    @*<p>@ids</p>*@
+    <div data-v-c52b8308="" id="ReviewModal" tabindex="-1" role="dialog" aria-labelledby="ReviewModalTitle" class="modal fade" aria-modal="true">
+        <div data-v-c52b8308="" class="modal-dialog">
+            <form data-v-c52b8308="" id="formReviews">
+                <div data-v-c52b8308="" class="modal-content">
+                    <div data-v-c52b8308="" class="modal-header bg-custom">
+                        <h5 data-v-c52b8308="" id="ReviewModalTitle" class="modal-title white">Đánh giá sản phẩm</h5>
+                        <button data-v-c52b8308="" type="button" data-dismiss="modal" aria-label="Close" class="close"><span data-v-c52b8308="" aria-hidden="true">×</span></button>
+                    </div>
+                    <div data-v-c52b8308="" class="modal-body">
+                        <div data-v-c52b8308="" class="modal-body">
+                            @if (Model[0].OrdersDetailModelView != null && Model[0].OrdersDetailModelView.Count > 0)
+                            {
+                                foreach (var item in Model[0].OrdersDetailModelView)
+                                {
+
+                                    <div data-v-c52b8308="" class="row mt-3 brd-bottom product-review" id="@item.ProductModelView.id" data-id="@item.ProductModelView.id" data-order="@Model[0].id">
+                                        <div data-v-c52b8308="" class="col-md-3"><img data-v-c52b8308="" src="/product-image/@item.ProductModelView.avatar" alt="" class="img-style"></div>
+                                        <div data-v-c52b8308="" class="col-md-8">
+                                            <div data-v-c52b8308="">
+                                                <p data-v-c52b8308="" class="name-product">@item.ProductModelView.name</p>
+                                            </div>
+                                        </div>
+                                        <div data-v-c52b8308="" class="col-md-12 mt-2">
+                                            <div class="rate">
+                                                <span class="custom-star-index"></span>
+                                                <input type="radio" id="star5_@item.ProductModelView.id" name="rate_@item.ProductModelView.id" value="5" />
+                                                <label for="star5_@item.ProductModelView.id" title="text" class="custom-star" data-id="@item.ProductModelView.id">5</label>
+                                                <input type="radio" id="star4_@item.ProductModelView.id" name="rate_@item.ProductModelView.id" value="4" />       
+                                                <label for="star4_@item.ProductModelView.id" title="text" class="custom-star" data-id="@item.ProductModelView.id">4</label>
+                                                <input type="radio" id="star3_@item.ProductModelView.id" name="rate_@item.ProductModelView.id" value="3" />
+                                                <label for="star3_@item.ProductModelView.id" title="text" class="custom-star" data-id="@item.ProductModelView.id">3</label>
+                                                <input type="radio" id="star2_@item.ProductModelView.id" name="rate_@item.ProductModelView.id" value="2" />      
+                                                <label for="star2_@item.ProductModelView.id" title="text" class="custom-star" data-id="@item.ProductModelView.id">2</label>
+                                                <input type="radio" id="star1_@item.ProductModelView.id" name="rate_@item.ProductModelView.id" value="1" />
+                                                <label for="star1_@item.ProductModelView.id" title="text" class="custom-star" data-id="@item.ProductModelView.id">1</label>
+
+                                            </div>
+                                        </div>
+                                        <div data-v-c52b8308="" class="col-md-12 mt-2"><textarea data-v-c52b8308="" rows="3" placeholder="Để lại đánh giá của bạn về sản phẩm này" class="form-control comment"></textarea></div>
+                                    </div>
+                                }                                
+                            }                                                      
+                        </div>
+                    </div><input type="hidden" class="ids" value="@Model[0].OrdersDetailModelView.Select(p=>p.product_id).ToArray()" />
+                    <div data-v-c52b8308="" class="modal-footer">
+                        <button data-v-c52b8308="" type="button" class="text-center btn btn-primary btn-reviews">Gửi</button>
+                        <button data-v-c52b8308="" type="button" data-dismiss="modal" class="btn btn-secondary btn-3d">Đóng</button></div>
+                </div>
+            </form>
+        </div>
+    </div>
+}
+    
+
+    @section Scripts{
+    @*<script src="/public/star-rating-js-main/dist/star-rating.js"></script>*@
+    <script type="text/javascript">
+        $(document).ready(function() {           
+            $("#ReviewModal").modal("show");           
+        })
+
+    </script>
+}

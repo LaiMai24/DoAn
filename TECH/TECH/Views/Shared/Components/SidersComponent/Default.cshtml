@@ -1,0 +1,16 @@
+﻿@using TECH.Areas.Admin.Models;
+@model List<SidersModelView>
+@if (Model != null && Model.Count() > 0)
+{
+    <div class="owl-carousel owl-theme owl-carousel-setting">
+        @foreach (var item in Model)
+        {
+            <div class="item"><img src="/product-siders/@item.image" class="d-block w-100" alt="..."></div>
+        }
+      
+        @*<div class="item"><img src="/website/images/slideshow_2.jpg" class="d-block w-100" alt="..."></div>*@
+    </div>
+}
+
+
+

@@ -1,0 +1,291 @@
+﻿@{
+    ViewData["Title"] = "Quản lý tài khoản";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@using TECH.Areas.Admin.Models;
+@model List<SidersModelView>
+@*<style>
+    .fisrt-image-product {
+        width: 77px;
+        height: 55px;
+        border-radius: 4px;
+    }
+</style>*@
+<style type="text/css">
+    input.error {
+        border-color: #f00 !important;
+    }
+
+    label.error {
+        clear: both;
+        color: #f00;
+        display: block;
+        text-align: left;
+        margin: unset;
+        padding: unset;
+        font-size: 13px;
+        font-weight: unset !important;
+        background: unset;
+    }
+
+    .form-group[class*='has-icon-'] .form-control-icon {
+        transform: unset !important;
+        top: 10% !important;
+    }
+    .item-image{
+            width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    }
+</style>
+
+<div class="page-heading">
+    <div class="page-title">
+        <div class="row">
+            <div class="col-12 col-md-6 order-md-1 order-last">
+                <h3>Quản lý Siders</h3>
+            </div>
+            <div class="col-12 col-md-6 order-md-2 order-first">
+                <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/admin">Dashboard</a></li>
+                        <li aria-current="page" class="breadcrumb-item active">Quản lý Siders</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section id="basic-vertical-layouts">
+        <div data-v-420ddee9="">
+            <div data-v-420ddee9="">
+                <!---->
+                <div class="snotify snotify-left_top"></div>
+                <div class="snotify snotify-left_center"></div>
+                <div class="snotify snotify-left_bottom"></div>
+                <div class="snotify snotify-right_top"></div>
+                <div class="snotify snotify-right_center"></div>
+                <div class="snotify snotify-right_bottom"></div>
+                <div class="snotify snotify-center_top"></div>
+                <div class="snotify snotify-center_center"></div>
+                <div class="snotify snotify-center_bottom"></div>
+            </div>
+            <div data-v-420ddee9="" class="row match-height">
+                <div data-v-420ddee9="" class="col-md-12 col-12">
+                    <div data-v-420ddee9="" class="card">
+                        <div data-v-420ddee9="" class="card-content">
+                            <div data-v-420ddee9="" class="card-body">
+                                <div data-v-420ddee9="" class="alert alert-info text-center"><span data-v-420ddee9="" class="text-bold">Hình ảnh quảng cáo này sẽ hiển thị đầu trang chủ website</span></div>
+                                <form data-v-420ddee9="" class="form form-vertical" method="#" action="#" id="formproductavatar">
+                                    <div data-v-420ddee9="" class="form-body">
+                                        <div data-v-420ddee9="" class="row">
+                                            <div data-v-420ddee9="" class="col-12 mb-2">
+                                                <div data-v-420ddee9="" class="form-group">
+                                                    <label data-v-420ddee9="" for="email-id-vertical">Hình ảnh</label>
+                                                    <input data-v-420ddee9="" type="file" id="productavatar" name="productavatar" class="form-control">
+                                                    <img data-v-420ddee9="" src="" alt="post_avatar" class="styling-img-ad center mt-3 box-image" style="width: 100%; height: 450px;display:none">
+                                                    @*@if (Model != null && !string.IsNullOrEmpty(Model.name))
+                                                    {
+                                                        <img data-v-420ddee9="" src="/product-advertisement/@Model.name" alt="post_avatar" class="styling-img-ad center mt-3" style="width: 100%; height: 750px;">
+                                                    }
+                                                    else
+                                                    {
+                                                        <img data-v-420ddee9="" src="" alt="post_avatar" class="styling-img-ad center mt-3 box-image" style="width: 100%; height: 750px;">
+                                                    }*@
+                                                    <!----> 
+                                                </div>
+                                            </div>
+                                            <div data-v-420ddee9="" class="col-6 d-flex justify-content-end">
+
+                                                <button data-v-420ddee9="" type="submit" class="btn btn-primary me-1 mb-1 btn-advertisement">Tạo mới</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                @if (Model != null && Model.Count > 0)
+                                {
+                                    <div  class="table-responsive">
+                                        <table  id="table1" class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>STT</th>
+                                                    <th>Hình ảnh</th>
+                                                    <th>Ngày upload</th>
+                                                    <th style="text-align: center;">Thao tác</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="tblData">
+                                                @{
+                                                    int index = 0;
+
+                                                    foreach (var item in Model)
+                                                    {
+                                                        index++;
+                                                        string datestr = @item.create_at.Value.ToString("hh:mm") + " - " + @item.create_at.Value.ToString("dd/MM/yyyy");
+                                                                <tr>
+                                                                    <td>@index</td>
+                                                                    <td><img src="/product-siders/@item.image" class="item-image"/></td>
+                                                                    <td>@datestr</td>
+                                                                    <td><button class="btn btn-danger custom-button" onclick="Deleted(@item.id)"><i class="bi bi-trash"></i></button></td>
+                                                                </tr>
+                                                    }
+
+                                                }
+                                        </tbody>
+                                    </table>
+                                </div>
+                                }
+                              
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@section Scripts{
+    @*  <script src="~/admin/plugins/select2/js/select2.min.js"></script>*@
+    <script src="~/admin/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script>
+        var self = this;
+        self.ProductImages = {};
+        self.IsImage = false;
+        $(document).ready(function() {
+            $('#productavatar').on('change', function() {
+                var fileUpload = $(this).get(0);
+                var files = fileUpload.files;
+                if (files != null && files.length > 0) {
+                    var fileExtension = ['jpeg', 'jpg', 'png'];
+                    var html = "";
+                    for (var i = 0; i < files.length; i++) {
+                        if ($.inArray(files[i].type.split('/')[1].toLowerCase(), fileExtension) == -1) {
+                            alert("Only formats are allowed : " + fileExtension.join(', '));
+                        }
+                        else {
+                            self.ProductImages = files[i];
+                            var src = URL.createObjectURL(files[i]);
+                            console.log(self.ProductImages);
+                            $(".box-image").attr('src', src).show();
+                            //self.IsImage = true;
+                        }
+                    }
+                }
+
+            });
+
+            //$(".btn-advertisement").click(function(){
+
+            //    if(!self.IsImage){
+            //         console.log(self.ProductImages);
+            //    }
+            //})
+
+            $("#formproductavatar").validate({
+                rules:
+                {
+                    productavatar: {
+                        required: true,
+                    }
+
+                },
+                messages:
+                {
+                    productavatar: {
+                        required: "Bạn chưa nhập hỉnh ảnh Siders",
+                    }
+                },
+                submitHandler: function(form) {
+                    uploadImage();
+                }
+            });
+
+
+        })
+
+        function add() {
+            $.ajax({
+                url: '/Admin/Siders/Add',
+                type: 'POST',
+                dataType: 'json',
+                data: {
+                    images: self.ProductImages.name
+                },
+                beforeSend: function() {
+                    //Loading('show');
+                },
+                complete: function() {
+                    //Loading('hiden');
+                },
+                success: function(response) {
+                    if (response.success) {
+                        tedu.notify('Cập nhật dữ liệu thành công', 'success');       
+                         setTimeout(function() { 
+                                window.location.reload();
+                            }, 500);
+                    }
+                    else {
+                          tedu.notify('Cập nhật dữ không liệu thành công', 'success');    
+                    }
+
+                }
+            })
+        }
+
+        function uploadImage() {
+            var dataImage = new FormData();
+            dataImage.append(0, self.ProductImages);
+
+            $.ajax({
+                url: '/Admin/Siders/UploadImageProduct',
+                type: 'POST',
+                contentType: false,
+                processData: false,
+                data: dataImage,
+                beforeSend: function() {
+                    //Loading('show');
+                },
+                complete: function() {
+                    //Loading('hiden');
+                },
+                success: function(response) {
+                    if(response.success){
+                          add();
+                    }
+                  
+                }
+            })
+        }
+
+        function Deleted (id) {
+            if (id != null && id != "") {
+                tedu.confirm('Bạn có chắc muốn xóa ảnh sider này?', function () {
+                    $.ajax({
+                        type: "POST",
+                        url: "/Admin/Siders/Delete",
+                        data: { id: id },
+                        beforeSend: function () {
+                            // tedu.start//Loading();
+                        },
+                        success: function () {
+                            tedu.notify('Đã xóa thành công', 'success');
+                            setTimeout(function() { 
+                                window.location.reload();
+                            }, 500);
+                            
+                        },
+                        error: function () {
+                            tedu.notify('Has an error', 'error');
+                            tedu.stop//Loading();
+                        }
+                    });
+                });
+            }
+        }
+
+    </script>
+    }
+
+
+

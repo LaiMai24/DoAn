@@ -1,0 +1,103 @@
+﻿@using TECH.Areas.Admin.Models;
+@model List<ReviewsModelView>
+@if (Model != null && Model.Count() > 0)
+{
+    
+<style>
+    .reivews .item .line{
+            position: relative;
+            border-left: 1px solid #e6e6e6;
+    }
+    .reivews .item .line:after{
+        position: absolute;
+    top: 50%;
+    left: -2px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+    width: 3px;
+    height: 30px;
+    background: #ffa45c;
+    }
+    .reivews .item img{
+            border-radius: 100%;
+            height: 70px !important;
+            width: 70px !important;
+    }
+    .bi {
+    width: 1rem;
+    height: 1rem;
+}
+.star-color {
+    color: #fcc72a;
+    font-size: 15px;
+}
+.reivews .item{
+    width:285px;
+}
+.reivews .item .name{
+        font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #000000;
+}
+.reivews .box-item{
+    display:inline-block;
+    width:100%;
+}
+</style>
+@*<a href="javascript:void(0)"></a>*@
+<section data-v-5178a8ea="" class="ftco-section testimony-section bg-light reivews">
+   <div data-v-5178a8ea="" class="container">
+      <div data-v-5178a8ea="" class="row justify-content-center pb-3">
+         <div data-v-5178a8ea="" class="col-md-7 heading-section">
+            <h2 data-v-5178a8ea="" class="mb-4">Khách hàng nói gì về chúng tôi</h2>
+         </div>
+         <div class="box-item home-slider-reviews owl-carousel">
+
+             @foreach (var item in Model)
+                    {
+                          <div class="item">
+                             <p class="mb-5 pl-4 line">@item.comment </p>
+                             <div class="row">
+                                 <div data-v-5178a8ea="" data-v-e4caeaf8="" class="col-md-4">
+                                    @if (item.userModelView != null && !string.IsNullOrEmpty(item.userModelView.avatar))
+                                    {
+                                        <img data-v-5178a8ea="" data-v-e4caeaf8="" src="/avartar/@item.userModelView.avatar" alt="" class="avatar-img" />
+                                    }else{
+                                        <img data-v-5178a8ea="" data-v-e4caeaf8="" src="/avartar/avatar-mac-dinh.jpg" alt="" class="avatar-img" />
+                                    }
+                                   
+                                </div>
+                                <div class="col-md-8">
+                                    <p data-v-5178a8ea="" data-v-e4caeaf8="" class="name">@item.userModelView.full_name</p>
+                                    @if (item.star.HasValue && item.star.Value > 0)
+                                    {
+                                        <div>
+                                             @for (int i = 1; i <= item.star; i++)
+                                            {
+                                                 <span>&nbsp;<i class="bi bi-star-fill star-color"></i></span>
+                                            }
+                                            <span>&nbsp;@item.star</span>
+                                                                                  
+                                        </div>
+                                    }
+                                    
+                                </div>
+
+                             </div>
+                         </div>
+                    }        
+             
+         </div>
+      </div>
+      
+   </div>
+</section>
+
+
+}
+
+
+

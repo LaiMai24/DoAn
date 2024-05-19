@@ -1,0 +1,261 @@
+﻿@using TECH.Areas.Admin.Models
+@model UserModelView
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style type="text/css">
+    input.error {
+        border-color: #f00 !important;
+    }
+
+    label.error {
+        clear: both;
+        color: #f00;
+        display: block;
+        text-align: left;
+        margin: unset;
+        padding: unset;
+        font-size: 13px;
+        font-weight: unset !important;
+        background: unset;
+    }
+
+    .form-group[class*='has-icon-'] .form-control-icon {
+        transform: unset !important;
+        top: 10% !important;
+    }
+    .avatar-img{
+        width: 130px !important;
+        height: 130px !important;
+            border-radius: 50%;
+    border: 1px solid #ddd;
+    }
+</style>
+@if (Model != null)
+{
+    <section id="lien-he-voi-chung-toi" class="ftco-section custom-height">
+        <div class="parallax-img d-flex align-items-center">
+            <div class="container">
+                <div class="row d-flex justify-content-center py-5 format-box">
+                    <div class="col-md-7 heading-section  fadeInUp d">
+                        <h2 class="text-center" style="text-transform: uppercase;
+    color: #EE3880;">
+                            Hồ sơ cá nhân
+                        </h2>
+                        <div data-v-5bdc90f8="" class="row d-flex justify-content-center mt-5">
+                            <div data-v-5bdc90f8="" class="col-md-12">
+                                <form data-v-5bdc90f8="" action="#" method="#" id="formcapnhat">
+                                    <div data-v-5bdc90f8="" class="row">
+                                        <div data-v-5bdc90f8="" class="col-md-12">
+                                            <div data-v-5bdc90f8="" class="form-group">
+                                                <div data-v-5bdc90f8="" class="image-upload center">
+                                                    @if(!string.IsNullOrEmpty(Model.avatar)){
+                                                        <div data-v-5bdc90f8="" class="text-center">
+                                                            <label data-v-5bdc90f8="" for="productavatar">
+                                                                <img data-v-5bdc90f8="" src="/avartar/@Model.avatar" alt="profile" class="avatar-img">
+                                                            </label>
+                                                        </div>
+                                                        <input data-v-5bdc90f8="" type="file" id="productavatar" name="productavatar" class="form-control productavatar" style="    display: none;">
+                                                    }
+                                                    else{
+                                                        <div data-v-5bdc90f8="" class="text-center">
+                                                        <label data-v-5bdc90f8="" for="productavatar">
+                                                            <img data-v-5bdc90f8="" src="../../../public/images/avatar-mac-dinh.jpg" alt="profile" class="avatar-img">
+                                                        </label>
+                                                    </div>
+                                                    <input data-v-5bdc90f8="" type="file" id="productavatar" name="productavatar" class="form-control productavatar" style="    display: none;">
+                                                    }
+                                                    
+                                                </div>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div data-v-5bdc90f8="" class="col-md-12">
+                                            <div data-v-5bdc90f8="" class="form-group">
+                                                <label data-v-5bdc90f8="" for="firstname" class="float-left"> Họ tên </label> <input data-v-5bdc90f8="" type="text" id="full_name" name="full_name" value="@Model.full_name" placeholder="Nhập họ tên" class="form-control"> <!---->
+                                            </div>
+                                        </div>
+                                        <div data-v-5bdc90f8="" class="col-md-12">
+                                            <div data-v-5bdc90f8="" class="form-group">
+                                                <label data-v-5bdc90f8="" for="lastname" class="float-left"> Số điện thoại </label> <input data-v-5bdc90f8="" type="text" name="phone_number" value="@Model.phone_number" id="phone_number" placeholder="Nhập số điện thoại" class="form-control"> <!---->
+                                            </div>
+                                        </div>
+                                        <div data-v-5bdc90f8="" class="col-md-12">
+                                            <div data-v-5bdc90f8="" class="form-group">
+                                                <label data-v-5bdc90f8="" for="re-pass" class="float-left"> Email </label> <input data-v-5bdc90f8="" type="email" name="email" id="email" value="@Model.email" placeholder="Nhập địa chỉ email" class="form-control"> <!---->
+                                            </div>
+                                        </div>
+                                        <div data-v-5bdc90f8="" class="col-md-12">
+                                            <div data-v-5bdc90f8="" class="form-group">
+                                                <label data-v-5bdc90f8="" for="re-pass" class="float-left"> Địa chỉ </label>
+                                                <textarea data-v-5bdc90f8="" id="address" name="address" placeholder="Nhập địa chỉ" class="form-control">@(!string.IsNullOrEmpty(Model.address) ? Model.address : "")</textarea>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button data-v-5bdc90f8="" type="submit" style="background: #EE3880;
+    border: 1px solid #EE3880;
+    color: #fff;
+    width: 100%;" class="btn btn-primary btn-block btn-info">
+                                        Cập nhật
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="CartsModal" tabindex="-1" role="dialog" aria-labelledby="categoryModalTitle" class="modal fade" aria-modal="true">
+        <div role="document" class="modal-dialog">
+            <form id="form-submit" action="#">
+                <div class="modal-content">
+                    <div class="modal-header" style="">
+                        <h5 id="titleModal" class="modal-title white ">Bạn đã cập nhật thông tin thành công</h5>
+                        <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button>
+                    </div>
+                  @*  <div class="modal-body">
+                    </div>*@
+                    <div class="modal-footer">
+                        @*<a href="/dang-nhap" class="btn btn-primary me-1 mb-1 btn-submit-format">OK</a>*@
+                        <a href="javascript:void(0)" class="btn btn-primary me-1 mb-1 btn-submit-format" data-dismiss="modal">OK</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+}
+
+
+@section Scripts{
+    <script src="~/admin/plugins/jquery-validation/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+        var self = this;
+        self.ProductImages = {};
+        $(document).ready(function () {
+
+            $('#productavatar').on('change', function () {
+                var fileUpload = $(this).get(0);
+                var files = fileUpload.files;
+                if (files != null && files.length > 0) {
+                    var fileExtension = ['jpeg', 'jpg', 'png'];
+                    var html = "";
+                    for (var i = 0; i < files.length; i++) {
+                        if ($.inArray(files[i].type.split('/')[1].toLowerCase(), fileExtension) == -1) {
+                            alert("Only formats are allowed : " + fileExtension.join(', '));
+                        }
+                        else {
+                            self.ProductImages = files[i];
+                            var src = URL.createObjectURL(files[i]);
+                            console.log(self.ProductImages);
+                            $(".avatar-img").attr("src",src);
+                            //$(".avatar-img").css({ "background-image": "url('" + src + "')", "display": "block" });
+                        }
+                    }
+                }
+
+            });
+
+            ValidateUser();
+        })
+
+        function ValidateUser() {
+
+            $("#formcapnhat").validate({
+                rules:
+                {
+                    full_name: {
+                        required: true,
+                    },
+                    phone_number: {
+                        required: true,
+                    },
+                    email: {
+                        required: true
+                    },
+                    address: {
+                        required: true
+                    }
+                },
+                messages:
+                {
+                    full_name: {
+                        required: "Họ tên không được để trống",
+                    },
+                    phone_number: {
+                        required: "Số điện thoại không được để trống",
+                    },
+                    email: {
+                        required: "Email kkhoong được để trống"
+                    },
+                    address: {
+                        required: "Địa chỉ không được để trống"
+                    }
+                },
+                submitHandler: function (form) {
+                    var UserModelView = {
+                        full_name: $("#full_name").val(),
+                        phone_number: $("#phone_number").val(),
+                        email: $("#email").val(),
+                        address: $("#address").val()
+                    }
+                    $.ajax({
+                        type: "POST",
+                        url: "/Admin/AppUsers/UpdateViewDetail",
+                        data: { UserModelView: UserModelView },
+                        beforeSend: function () {
+                            // tedu.start//Loading();
+                        },
+                        success: function (response) {
+                            $("#CartsModal").modal("show");
+                            if (response.success) {
+
+                                if (self.ProductImages != null && self.ProductImages != "") {
+                                    UploadFileImageProduct();
+                                }
+
+
+                                $("#titleModal").text("Bạn đã cập nhật thông tin thành công");
+                            }
+                            else {
+                                $("#titleModal").text("Bạn đã cập nhật thông tin không thành công");
+                            }
+                        },
+                        error: function () {
+                            tedu.notify('Has an error', 'error');
+                            tedu.stop//Loading();
+                        }
+                    });
+                }
+            });
+        }
+
+        function UploadFileImageProduct() {
+            var dataImage = new FormData();
+            dataImage.append(0, self.ProductImages);
+
+            $.ajax({
+                url: '/Admin/AppUsers/UploadImageAvartar',
+                type: 'POST',
+                contentType: false,
+                processData: false,
+                data: dataImage,
+                beforeSend: function () {
+                    //Loading('show');
+                },
+                complete: function () {
+                    //Loading('hiden');
+                },
+                success: function (response) {
+                    //if (response.success) {
+                    //    self.GetDataPaging(true);
+                    //    $('#_addUpdate').modal('hide');
+                    //}
+                }
+            })
+        }
+    </script>
+}
+

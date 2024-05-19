@@ -1,0 +1,27 @@
+﻿@using TECH.Areas.Admin.Models
+@model List<CategoryMenuCountModelView>
+
+@if (Model != null && Model.Count > 0)
+{
+    <div data-v-7b8a01fc="" class="col-md-4 col-lg-2 sidebar">
+    <div data-v-7b8a01fc="" class="sidebar-box-2">
+        <h2 data-v-7b8a01fc="" class="heading mb-4"><a data-v-7b8a01fc="" href="#">Danh mục</a></h2>
+        <ul data-v-7b8a01fc="" class="categories">
+            @foreach (var item in Model)
+            {
+                <li data-v-7b8a01fc="">
+                    <a data-v-7b8a01fc="" href="/san-pham/@item.id">
+                        <h6 data-v-7b8a01fc="">
+                            @item.category_name <span data-v-7b8a01fc="">(@item.count_product)</span>
+                        </h6>
+                    </a>
+                </li>
+            }          
+        </ul>
+    </div>
+</div>
+}
+
+
+
+

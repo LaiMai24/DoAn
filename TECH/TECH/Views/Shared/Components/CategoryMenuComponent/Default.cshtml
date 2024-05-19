@@ -1,0 +1,68 @@
+﻿@*@using TECH.Areas.Admin.Models
+@model List<CategoryModelView>
+@if (Model != null && Model.Count > 0)
+{
+
+    <a href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">
+        Danh mục
+    </a>
+    <div aria-labelledby="dropdown04" class="dropdown-menu">
+        @foreach (var item in Model)
+        {
+            <a href="/san-pham/@item.id" class="dropdown-item">@item.name</a>
+        }
+
+    </div>
+
+}
+*@
+
+@using TECH.Areas.Admin.Models
+@model List<CategoryModelView>
+@if (Model != null && Model.Count > 0)
+{
+ @*   <li>
+        <div class="megamenu-wrapper not-index">
+            <div class="megamenu-head">
+                <i class="fas fa-bars"></i> Danh mục sản phẩm
+            </div>
+            <div class="megamenu-body">
+                <ul class="no-bullets" style="text-align: left;">
+                    @foreach (var item in Model)
+                    {
+                        <li class="li-dropdown">
+                            <a href="/san-pham/@item.id">@item.name</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </li>*@
+    @foreach (var item in Model)
+        {
+               <li id="menu-item-111586" class="menu-item menu-item-type-taxonomy  menu-item-111586 menu-item-design-default  @(item.LstChildrent != null && item.LstChildrent.Count > 0 ?"menu-item-object-product_cat menu-item-has-children has-dropdown":"")">
+            <a href="@(item.LstChildrent != null && item.LstChildrent.Count > 0 ?"javascript:void(0)":"/san-pham/" + item.id)" class="nav-top-link" aria-expanded="false" aria-haspopup="menu" style=" text-transform: uppercase;">
+                @item.name
+                @if (item.LstChildrent != null && item.LstChildrent.Count > 0) { 
+                     <i class="fa-solid fa-angle-down" style="font-size: 14px;    margin-left: 5px;"></i>
+                }
+               </a>
+               @if(item.LstChildrent != null && item.LstChildrent.Count > 0){
+                   <ul class="sub-menu nav-dropdown nav-dropdown-simple">
+                  <li id="menu-item-120854" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-120854 nav-dropdown-col" style="    width: unset !important;
+    min-width: unset !important;">                   
+                     <ul class="sub-menu nav-column nav-dropdown-simple">
+                        @foreach (var itemChild in item.LstChildrent){
+                           <li id="menu-item-120851" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-120851"><a href="/san-pham/@itemChild.id">@itemChild.name</a></li>
+                        }                        
+                     </ul>
+                  </li>                  
+               </ul>
+               }                      
+            </li>
+        }
+    
+}
+
+
+
